@@ -1,0 +1,63 @@
+{
+ "invoice": {
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-4869",
+  "invoice_date": "2026-04-30",
+  "due_date": "2026-06-14",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 12.0,
+    "unit_price": 57.23,
+    "amount": 686.76
+   },
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 4.0,
+    "unit_price": 92.15,
+    "amount": 368.6
+   },
+   {
+    "description": "Supplies surcharge",
+    "quantity": 10.0,
+    "unit_price": 23.34,
+    "amount": 233.4
+   },
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 3.0,
+    "unit_price": 104.55,
+    "amount": 313.65
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 10.0,
+    "unit_price": 37.51,
+    "amount": 375.1
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 4.0,
+    "unit_price": 45.45,
+    "amount": 181.8
+   }
+  ],
+  "subtotal": 2159.31,
+  "tax": 0.0,
+  "total": 2159.31,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_48.pdf",
+  "sha256": "0a7998290c84cf6981338ffb40128a58efc4a6da21b2c216a5372a73251b286c",
+  "model": "claude-opus-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:46:56",
+  "latency_s": 6.03,
+  "input_tokens": 4171,
+  "output_tokens": 614,
+  "cost_usd": 0.02896
+ }
+}

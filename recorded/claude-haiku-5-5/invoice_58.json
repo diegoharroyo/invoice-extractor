@@ -1,0 +1,63 @@
+{
+ "invoice": {
+  "vendor_name": "Vantor Freight",
+  "invoice_number": "VAN-2026-7454",
+  "invoice_date": "2026-06-14",
+  "due_date": "2026-06-29",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Fuel surcharge",
+    "quantity": 1.0,
+    "unit_price": 15.95,
+    "amount": 15.95
+   },
+   {
+    "description": "Pallet transport, per pallet",
+    "quantity": 1.0,
+    "unit_price": 131.2,
+    "amount": 131.2
+   },
+   {
+    "description": "Pallet transport, per pallet",
+    "quantity": 12.0,
+    "unit_price": 152.14,
+    "amount": 1825.68
+   },
+   {
+    "description": "Fuel surcharge",
+    "quantity": 2.0,
+    "unit_price": 37.17,
+    "amount": 74.34
+   },
+   {
+    "description": "Fuel surcharge",
+    "quantity": 1.0,
+    "unit_price": 31.8,
+    "amount": 31.8
+   },
+   {
+    "description": "Pallet transport, per pallet",
+    "quantity": 3.0,
+    "unit_price": 64.34,
+    "amount": 193.02
+   }
+  ],
+  "subtotal": 2271.99,
+  "tax": 142.0,
+  "total": 2413.99,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_58.jpg",
+  "sha256": "5c67a126380d93b7bde02b05619e34f2b277fe3fbf6d1c3c073fa20a2d8cbba4",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:50:28",
+  "latency_s": 5.95,
+  "input_tokens": 3514,
+  "output_tokens": 1250,
+  "cost_usd": 0.00098
+ }
+}

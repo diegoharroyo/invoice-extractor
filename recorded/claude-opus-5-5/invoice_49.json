@@ -1,0 +1,57 @@
+{
+ "invoice": {
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-7127",
+  "invoice_date": "2026-04-18",
+  "due_date": "2026-05-03",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Business cards, 500 pcs",
+    "quantity": 1.0,
+    "unit_price": 59.46,
+    "amount": 59.46
+   },
+   {
+    "description": "Flyers A5, 1000 pcs",
+    "quantity": 1.0,
+    "unit_price": 120.09,
+    "amount": 120.09
+   },
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 1.0,
+    "unit_price": 80.24,
+    "amount": 80.24
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 10.0,
+    "unit_price": 74.15,
+    "amount": 741.5
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 3.0,
+    "unit_price": 42.14,
+    "amount": 126.42
+   }
+  ],
+  "subtotal": 1127.71,
+  "tax": 100.08,
+  "total": 1227.79,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_49.pdf",
+  "sha256": "1fa780ea32d844b58f50ec0138d0c2a6ac2ad1f920667043ace281676b1136fb",
+  "model": "claude-opus-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:47:01",
+  "latency_s": 5.78,
+  "input_tokens": 4163,
+  "output_tokens": 582,
+  "cost_usd": 0.02829
+ }
+}

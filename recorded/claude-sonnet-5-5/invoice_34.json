@@ -1,0 +1,51 @@
+{
+ "invoice": {
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-9077",
+  "invoice_date": "2026-06-20",
+  "due_date": "2026-07-05",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Business cards, 500 pcs",
+    "quantity": 10.0,
+    "unit_price": 58.36,
+    "amount": 583.6
+   },
+   {
+    "description": "Design proof, per hour",
+    "quantity": 7.0,
+    "unit_price": 41.1,
+    "amount": 287.7
+   },
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 4.0,
+    "unit_price": 95.68,
+    "amount": 382.72
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 10.0,
+    "unit_price": 63.47,
+    "amount": 634.7
+   }
+  ],
+  "subtotal": 1888.72,
+  "tax": 0.0,
+  "total": 1888.72,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_34.pdf",
+  "sha256": "b979725611e34d01e86732eef20620cf7589e73be3dac96792ebbdc39143cc1d",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:44:46",
+  "latency_s": 3.99,
+  "input_tokens": 4120,
+  "output_tokens": 468,
+  "cost_usd": 0.01292
+ }
+}

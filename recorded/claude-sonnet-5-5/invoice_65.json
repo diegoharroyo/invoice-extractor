@@ -1,0 +1,53 @@
+{
+ "invoice": {
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-7764",
+  "invoice_date": "2026-03-07",
+  "due_date": "2026-04-21",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 1.0,
+    "unit_price": 98.67,
+    "amount": 98.67
+   },
+   {
+    "description": "Window cleaning",
+    "quantity": 6.0,
+    "unit_price": 129.28,
+    "amount": 646.4
+   },
+   {
+    "description": "Supplies surcharge",
+    "quantity": 5.0,
+    "unit_price": 23.33,
+    "amount": 116.65
+   },
+   {
+    "description": "Supplies surcharge",
+    "quantity": 3.0,
+    "unit_price": 24.81,
+    "amount": 74.43
+   }
+  ],
+  "subtotal": 936.15,
+  "tax": 83.08,
+  "total": 1019.23,
+  "unreadable": [
+   "line_items[1].quantity"
+  ]
+ },
+ "provenance": {
+  "file": "invoice_65.jpg",
+  "sha256": "98eac896e9b1f92cd85d5a3db58d0590cb925ebd4d2da478428fe28363f804eb",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:51:11",
+  "latency_s": 7.65,
+  "input_tokens": 2888,
+  "output_tokens": 917,
+  "cost_usd": 0.01495
+ }
+}

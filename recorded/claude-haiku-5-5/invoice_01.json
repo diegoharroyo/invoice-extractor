@@ -1,0 +1,57 @@
+{
+ "invoice": {
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-8132",
+  "invoice_date": "2026-06-17",
+  "due_date": "2026-07-17",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 1.0,
+    "unit_price": 27.91,
+    "amount": 27.91
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 20.0,
+    "unit_price": 19.57,
+    "amount": 391.4
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 20.0,
+    "unit_price": 27.16,
+    "amount": 543.2
+   },
+   {
+    "description": "Whiteboard markers, pack of 12",
+    "quantity": 12.0,
+    "unit_price": 8.16,
+    "amount": 97.92
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 1.0,
+    "unit_price": 13.99,
+    "amount": 13.99
+   }
+  ],
+  "subtotal": 1074.42,
+  "tax": 0.0,
+  "total": 1074.42,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_01.pdf",
+  "sha256": "be786688b054a233515cb90dbcd276da9b88b5d1cab9aaf65a67f94def24766b",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:42:05",
+  "latency_s": 4.44,
+  "input_tokens": 4170,
+  "output_tokens": 703,
+  "cost_usd": 0.00077
+ }
+}

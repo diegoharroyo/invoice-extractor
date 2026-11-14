@@ -1,0 +1,39 @@
+{
+ "invoice": {
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-0279",
+  "invoice_date": "2026-07-30",
+  "due_date": "2026-08-29",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 3.0,
+    "unit_price": 87.24,
+    "amount": 261.72
+   },
+   {
+    "description": "Business cards, 500 pcs",
+    "quantity": 5.0,
+    "unit_price": 26.55,
+    "amount": 132.75
+   }
+  ],
+  "subtotal": 394.47,
+  "tax": 0.0,
+  "total": 394.47,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_64.jpg",
+  "sha256": "8b2facde4bf60c43631a17f35f0223db4e1a21897090da3e631c04dee7a801fb",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:51:18",
+  "latency_s": 7.84,
+  "input_tokens": 2905,
+  "output_tokens": 786,
+  "cost_usd": 0.00068
+ }
+}

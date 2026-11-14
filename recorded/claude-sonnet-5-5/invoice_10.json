@@ -1,0 +1,63 @@
+{
+ "invoice": {
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-6904",
+  "invoice_date": "2026-06-02",
+  "due_date": "2026-07-17",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 4.0,
+    "unit_price": 141.43,
+    "amount": 565.72
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 1.0,
+    "unit_price": 53.98,
+    "amount": 53.98
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 3.0,
+    "unit_price": 54.63,
+    "amount": 163.89
+   },
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 2.0,
+    "unit_price": 129.52,
+    "amount": 259.04
+   },
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 1.0,
+    "unit_price": 90.05,
+    "amount": 90.05
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 4.0,
+    "unit_price": 36.01,
+    "amount": 144.04
+   }
+  ],
+  "subtotal": 1276.72,
+  "tax": 79.8,
+  "total": 1356.52,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_10.pdf",
+  "sha256": "dc4dc7fff5d5891ad8c52825fe2aa9bb9f284ada264dff94fad2a8e3a89ec2d4",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:42:53",
+  "latency_s": 4.83,
+  "input_tokens": 4166,
+  "output_tokens": 597,
+  "cost_usd": 0.0143
+ }
+}

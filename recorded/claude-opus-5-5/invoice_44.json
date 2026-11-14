@@ -1,0 +1,45 @@
+{
+ "invoice": {
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-4935",
+  "invoice_date": "2026-01-05",
+  "due_date": "2026-01-20",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Support hours",
+    "quantity": 7.0,
+    "unit_price": 51.44,
+    "amount": 360.08
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 4.0,
+    "unit_price": 117.8,
+    "amount": 471.2
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 20.0,
+    "unit_price": 305.36,
+    "amount": 6107.2
+   }
+  ],
+  "subtotal": 6938.48,
+  "tax": 0.0,
+  "total": 7038.48,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_44.pdf",
+  "sha256": "a6cd75d4b8f72b85a8bfd815232c978ee51040a252cd0b5f4d76e6d417662fe8",
+  "model": "claude-opus-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:46:34",
+  "latency_s": 5.24,
+  "input_tokens": 4087,
+  "output_tokens": 465,
+  "cost_usd": 0.02565
+ }
+}

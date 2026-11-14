@@ -1,0 +1,51 @@
+{
+ "invoice": {
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-1397",
+  "invoice_date": "2026-07-27",
+  "due_date": "2026-09-10",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Desk chair",
+    "quantity": 3.0,
+    "unit_price": 193.35,
+    "amount": 580.05
+   },
+   {
+    "description": "Filing cabinet",
+    "quantity": 12.0,
+    "unit_price": 167.12,
+    "amount": 2005.44
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 3.0,
+    "unit_price": 214.36,
+    "amount": 643.08
+   },
+   {
+    "description": "Filing cabinet",
+    "quantity": 5.0,
+    "unit_price": 218.98,
+    "amount": 1094.9
+   }
+  ],
+  "subtotal": 4323.47,
+  "tax": 0.0,
+  "total": 4323.47,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_53.jpg",
+  "sha256": "874967580e94195ef4996f9dc0e7b6413d21a3fa838cbc6b4ab8511fa1ddbce4",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:50:05",
+  "latency_s": 3.77,
+  "input_tokens": 3511,
+  "output_tokens": 635,
+  "cost_usd": 0.00067
+ }
+}

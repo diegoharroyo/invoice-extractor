@@ -1,0 +1,33 @@
+{
+ "invoice": {
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-7327",
+  "invoice_date": "2026-08-30",
+  "due_date": "2026-09-29",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 1.0,
+    "unit_price": 20.23,
+    "amount": 20.23
+   }
+  ],
+  "subtotal": 20.23,
+  "tax": 3.84,
+  "total": 24.07,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_30.pdf",
+  "sha256": "afa1bc28d26567dc83fb6fa0d4772fedf4d868053f2954e875effb39c963eff5",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:44:28",
+  "latency_s": 3.52,
+  "input_tokens": 4049,
+  "output_tokens": 342,
+  "cost_usd": 0.01152
+ }
+}

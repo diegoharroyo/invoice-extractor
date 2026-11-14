@@ -1,0 +1,44 @@
+{
+ "invoice": {
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BWS-2026-2030",
+  "invoice_date": "2026-01-26",
+  "due_date": "2026-02-10",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Support hours",
+    "quantity": 2.0,
+    "unit_price": 93.85,
+    "amount": 187.7
+   },
+   {
+    "description": "Support hours",
+    "quantity": 2.0,
+    "unit_price": 50.44,
+    "amount": 100.88
+   }
+  ],
+  "subtotal": 288.58,
+  "tax": 13.84,
+  "total": 221.62,
+  "unreadable": [
+   "invoice_number",
+   "line_items[1].unit_price",
+   "tax",
+   "total"
+  ]
+ },
+ "provenance": {
+  "file": "invoice_70.jpg",
+  "sha256": "ed821a9abd0bf6c6335924c1d4313a7a5fd918ccf36e50dbb94cb99a22393be4",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:52:16",
+  "latency_s": 8.07,
+  "input_tokens": 2907,
+  "output_tokens": 1356,
+  "cost_usd": 0.00097
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "invoice": {
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-8804",
+  "invoice_date": "2026-01-05",
+  "due_date": "2026-01-20",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Design proof, per hour",
+    "quantity": 1.5,
+    "unit_price": 54.14,
+    "amount": 81.21
+   },
+   {
+    "description": "Design proof, per hour",
+    "quantity": 6.0,
+    "unit_price": 40.47,
+    "amount": 242.82
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 5.0,
+    "unit_price": 65.62,
+    "amount": 328.1
+   },
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 1.0,
+    "unit_price": 119.41,
+    "amount": 119.41
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 1.0,
+    "unit_price": 72.51,
+    "amount": 72.51
+   },
+   {
+    "description": "Flyers A5, 1000 pcs",
+    "quantity": 1.0,
+    "unit_price": 100.18,
+    "amount": 100.18
+   },
+   {
+    "description": "Flyers A5, 1000 pcs",
+    "quantity": 4.0,
+    "unit_price": 117.57,
+    "amount": 470.28
+   }
+  ],
+  "subtotal": 1414.51,
+  "tax": 0.0,
+  "total": 1414.51,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_32.pdf",
+  "sha256": "c675d28b9fdb10ac76ad927f67e9fd9edd59b5ff6e0accb06a4efd0ee2e48ecc",
+  "model": "claude-opus-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:45:23",
+  "latency_s": 6.43,
+  "input_tokens": 4209,
+  "output_tokens": 687,
+  "cost_usd": 0.03058
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "invoice": {
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-9506",
+  "invoice_date": "2026-05-31",
+  "due_date": "2026-07-15",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Backup service, monthly",
+    "quantity": 20.0,
+    "unit_price": 47.06,
+    "amount": 941.2
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 3.0,
+    "unit_price": 382.7,
+    "amount": 1148.1
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 4.0,
+    "unit_price": 187.39,
+    "amount": 749.56
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 2.0,
+    "unit_price": 6.03,
+    "amount": 12.06
+   }
+  ],
+  "subtotal": 2850.92,
+  "tax": 570.18,
+  "total": 3421.1,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_43.pdf",
+  "sha256": "f16a8e7273b928b73fd343dbacf8ff76167914adda533ca49fa0b4413f51d838",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:45:16",
+  "latency_s": 4.54,
+  "input_tokens": 4175,
+  "output_tokens": 784,
+  "cost_usd": 0.00081
+ }
+}

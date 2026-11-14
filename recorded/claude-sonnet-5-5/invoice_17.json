@@ -1,0 +1,45 @@
+{
+ "invoice": {
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-5039",
+  "invoice_date": "2026-07-12",
+  "due_date": "2026-07-27",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Toner cartridge, black",
+    "quantity": 20.0,
+    "unit_price": 56.57,
+    "amount": 1131.4
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 3.0,
+    "unit_price": 14.28,
+    "amount": 42.84
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 12.0,
+    "unit_price": 108.26,
+    "amount": 1299.12
+   }
+  ],
+  "subtotal": 2473.36,
+  "tax": 154.59,
+  "total": 2627.95,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_17.pdf",
+  "sha256": "8f474cdd741d24777ca2f19a737e8db5c251b1342ebcb678a33354d0e0e80ced",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:43:21",
+  "latency_s": 3.94,
+  "input_tokens": 4103,
+  "output_tokens": 418,
+  "cost_usd": 0.01239
+ }
+}

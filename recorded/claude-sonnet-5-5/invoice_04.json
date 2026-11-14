@@ -1,0 +1,57 @@
+{
+ "invoice": {
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-9039",
+  "invoice_date": "2026-09-24",
+  "due_date": "2026-10-24",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Support hours",
+    "quantity": 5.5,
+    "unit_price": 56.23,
+    "amount": 309.27
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 117.76,
+    "amount": 117.76
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 1.0,
+    "unit_price": 6.59,
+    "amount": 6.59
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 12.0,
+    "unit_price": 185.6,
+    "amount": 2227.2
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 97.6,
+    "amount": 97.6
+   }
+  ],
+  "subtotal": 2758.42,
+  "tax": 579.27,
+  "total": 3337.69,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_04.pdf",
+  "sha256": "ec16805c480b7d2438a9b6d81bb23099bb258725de03e8254ef18dd45cc05cc6",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:42:18",
+  "latency_s": 4.24,
+  "input_tokens": 4183,
+  "output_tokens": 495,
+  "cost_usd": 0.01332
+ }
+}

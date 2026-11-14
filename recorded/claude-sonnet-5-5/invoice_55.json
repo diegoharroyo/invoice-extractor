@@ -1,0 +1,33 @@
+{
+ "invoice": {
+  "vendor_name": "Lumen Parts GmbH",
+  "invoice_number": "LUM-2026-4149",
+  "invoice_date": "2026-08-07",
+  "due_date": "2026-09-06",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Hex bolts M8, box of 100",
+    "quantity": 4.0,
+    "unit_price": 10.55,
+    "amount": 42.2
+   }
+  ],
+  "subtotal": 42.2,
+  "tax": 8.86,
+  "total": 51.06,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_55.jpg",
+  "sha256": "4e5de86c48f12cedea381faf6bda1188737fbad72f2ae936e3a7e90bcfe5b75e",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:50:18",
+  "latency_s": 3.83,
+  "input_tokens": 3507,
+  "output_tokens": 345,
+  "cost_usd": 0.01046
+ }
+}

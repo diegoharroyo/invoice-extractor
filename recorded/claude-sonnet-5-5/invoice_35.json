@@ -1,0 +1,63 @@
+{
+ "invoice": {
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-8434",
+  "invoice_date": "2026-06-04",
+  "due_date": "2026-07-04",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Machine descaling service",
+    "quantity": 3.0,
+    "unit_price": 83.38,
+    "amount": 250.14
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 2.0,
+    "unit_price": 8.0,
+    "amount": 16.0
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 10.0,
+    "unit_price": 21.93,
+    "amount": 219.3
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 20.0,
+    "unit_price": 5.97,
+    "amount": 119.4
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 20.0,
+    "unit_price": 6.69,
+    "amount": 133.8
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 4.0,
+    "unit_price": 57.38,
+    "amount": 229.52
+   }
+  ],
+  "subtotal": 968.16,
+  "tax": 183.95,
+  "total": 1152.11,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_35.pdf",
+  "sha256": "b4ef0970ae8fc9ee09cdb82eee96bea8d4ddf89723926231d477555619d592ba",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:44:50",
+  "latency_s": 4.47,
+  "input_tokens": 4211,
+  "output_tokens": 546,
+  "cost_usd": 0.01388
+ }
+}

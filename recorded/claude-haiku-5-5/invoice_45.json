@@ -1,0 +1,45 @@
+{
+ "invoice": {
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-1620",
+  "invoice_date": "2026-02-13",
+  "due_date": "2026-03-15",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 1.0,
+    "unit_price": 364.37,
+    "amount": 364.37
+   },
+   {
+    "description": "Support hours",
+    "quantity": 3.5,
+    "unit_price": 73.85,
+    "amount": 258.48
+   },
+   {
+    "description": "Support hours",
+    "quantity": 3.0,
+    "unit_price": 72.62,
+    "amount": 217.86
+   }
+  ],
+  "subtotal": 840.71,
+  "tax": 176.55,
+  "total": 1017.26,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_45.pdf",
+  "sha256": "6a36d5abf2fa13532af2eda6d6bee31621101379ad9a40d41ad23e2b19f930a6",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:45:23",
+  "latency_s": 4.27,
+  "input_tokens": 4110,
+  "output_tokens": 636,
+  "cost_usd": 0.00073
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "invoice": {
+  "vendor_name": "Lumen Parts GmbH",
+  "invoice_number": "LUM-2026-5081",
+  "invoice_date": "2026-06-16",
+  "due_date": "2026-07-16",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Cable gland M20",
+    "quantity": 4.0,
+    "unit_price": 2.46,
+    "amount": 9.84
+   },
+   {
+    "description": "Aluminium profile 40x40, 1 m",
+    "quantity": 4.0,
+    "unit_price": 12.59,
+    "amount": 50.36
+   },
+   {
+    "description": "Cable gland M20",
+    "quantity": 2.0,
+    "unit_price": 1.07,
+    "amount": 2.14
+   },
+   {
+    "description": "Aluminium profile 40x40, 1 m",
+    "quantity": 4.0,
+    "unit_price": 25.38,
+    "amount": 101.52
+   },
+   {
+    "description": "Cable gland M20",
+    "quantity": 3.0,
+    "unit_price": 2.1,
+    "amount": 6.3
+   }
+  ],
+  "subtotal": 170.16,
+  "tax": 35.73,
+  "total": 205.89,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_19.pdf",
+  "sha256": "a3462a2622d160898493e809751cbb7418076bbfb621cceaa8e7ed142d6c2d40",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:43:32",
+  "latency_s": 4.37,
+  "input_tokens": 4208,
+  "output_tokens": 784,
+  "cost_usd": 0.00081
+ }
+}

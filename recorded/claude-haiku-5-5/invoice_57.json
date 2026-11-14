@@ -1,0 +1,33 @@
+{
+ "invoice": {
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-1238",
+  "invoice_date": "2026-07-24",
+  "due_date": "2026-08-08",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 5.0,
+    "unit_price": 60.19,
+    "amount": 300.95
+   }
+  ],
+  "subtotal": 300.95,
+  "tax": 0.0,
+  "total": 300.95,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_57.jpg",
+  "sha256": "eb052c4829c1e78bb3c4bd248b1151e951b96bf89831851a2b284278a902b61f",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:50:22",
+  "latency_s": 3.06,
+  "input_tokens": 3513,
+  "output_tokens": 350,
+  "cost_usd": 0.00053
+ }
+}

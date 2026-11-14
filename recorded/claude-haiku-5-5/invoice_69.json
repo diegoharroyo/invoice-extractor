@@ -1,0 +1,44 @@
+{
+ "invoice": {
+  "vendor_name": "Kestrel Cleaning Co",
+  "invoice_number": "KES-2026-1836",
+  "invoice_date": "2026-04-30",
+  "due_date": "2026-05-30",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 1.0,
+    "unit_price": 49.62,
+    "amount": 49.62
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 1.0,
+    "unit_price": 55.81,
+    "amount": 55.81
+   }
+  ],
+  "subtotal": 122.4,
+  "tax": 6.59,
+  "total": 128.99,
+  "unreadable": [
+   "invoice_number",
+   "invoice_date",
+   "due_date",
+   "subtotal"
+  ]
+ },
+ "provenance": {
+  "file": "invoice_69.jpg",
+  "sha256": "cc1c74e8256726eafab190ba72c5980463fa41d33475b06b9038c413d6a9989c",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:52:08",
+  "latency_s": 7.37,
+  "input_tokens": 2909,
+  "output_tokens": 1165,
+  "cost_usd": 0.00087
+ }
+}

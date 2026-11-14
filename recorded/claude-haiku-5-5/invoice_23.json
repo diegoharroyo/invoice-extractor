@@ -1,0 +1,33 @@
+{
+ "invoice": {
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-5486",
+  "invoice_date": "2026-09-03",
+  "due_date": "2026-09-18",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Support hours",
+    "quantity": 1.5,
+    "unit_price": 62.65,
+    "amount": 93.98
+   }
+  ],
+  "subtotal": 93.98,
+  "tax": 17.86,
+  "total": 111.84,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_23.pdf",
+  "sha256": "a82ea6ad27cdb36cbc8bff9db07599252fda752c84ecd9eb9acccc166c5fb632",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:43:47",
+  "latency_s": 3.07,
+  "input_tokens": 4101,
+  "output_tokens": 340,
+  "cost_usd": 0.00058
+ }
+}

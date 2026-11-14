@@ -1,0 +1,33 @@
+{
+ "invoice": {
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-2920",
+  "invoice_date": "2026-04-15",
+  "due_date": "2026-05-15",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Business cards, 500 pcs",
+    "quantity": 5.0,
+    "unit_price": 50.02,
+    "amount": 250.1
+   }
+  ],
+  "subtotal": 250.1,
+  "tax": 22.2,
+  "total": 273.2,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_25.pdf",
+  "sha256": "cc5d12447e295878ff61e89b925de8f1f8b374856f6919906698aa2758a79bc5",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:43:55",
+  "latency_s": 3.84,
+  "input_tokens": 4072,
+  "output_tokens": 479,
+  "cost_usd": 0.00065
+ }
+}

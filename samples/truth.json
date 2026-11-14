@@ -1,0 +1,3660 @@
+[
+ {
+  "file": "invoice_01.pdf",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-8132",
+  "invoice_date": "2026-06-17",
+  "due_date": "2026-07-17",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 1.0,
+    "unit_price": 27.91,
+    "amount": 27.91
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 20.0,
+    "unit_price": 19.57,
+    "amount": 391.4
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 20.0,
+    "unit_price": 27.16,
+    "amount": 543.2
+   },
+   {
+    "description": "Whiteboard markers, pack of 12",
+    "quantity": 12.0,
+    "unit_price": 8.16,
+    "amount": 97.92
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 1.0,
+    "unit_price": 13.99,
+    "amount": 13.99
+   }
+  ],
+  "subtotal": 1074.42,
+  "tax": 0.0,
+  "total": 1074.42
+ },
+ {
+  "file": "invoice_02.pdf",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-0505",
+  "invoice_date": "2026-07-02",
+  "due_date": "2026-08-01",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 20.0,
+    "unit_price": 309.43,
+    "amount": 6188.6
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 1.0,
+    "unit_price": 42.3,
+    "amount": 42.3
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 4.0,
+    "unit_price": 38.3,
+    "amount": 153.2
+   }
+  ],
+  "subtotal": 6384.1,
+  "tax": 1276.82,
+  "total": 7660.92
+ },
+ {
+  "file": "invoice_03.pdf",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": "total",
+  "vendor_name": "Atelier Moreau SARL",
+  "invoice_number": "ATE-2026-8396",
+  "invoice_date": "2026-08-09",
+  "due_date": "2026-09-23",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Design proof, per hour",
+    "quantity": 8.0,
+    "unit_price": 44.64,
+    "amount": 357.12
+   }
+  ],
+  "subtotal": 357.12,
+  "tax": 71.42,
+  "total": 419.54
+ },
+ {
+  "file": "invoice_04.pdf",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-9039",
+  "invoice_date": "2026-09-24",
+  "due_date": "2026-10-24",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Support hours",
+    "quantity": 5.5,
+    "unit_price": 56.23,
+    "amount": 309.27
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 117.76,
+    "amount": 117.76
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 1.0,
+    "unit_price": 6.59,
+    "amount": 6.59
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 12.0,
+    "unit_price": 185.6,
+    "amount": 2227.2
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 97.6,
+    "amount": 97.6
+   }
+  ],
+  "subtotal": 2758.42,
+  "tax": 579.27,
+  "total": 3337.69
+ },
+ {
+  "file": "invoice_05.png",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": true,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-5288",
+  "invoice_date": "2026-10-12",
+  "due_date": "2026-11-26",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Password manager seats",
+    "quantity": 12.0,
+    "unit_price": 7.02,
+    "amount": 84.24
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 10.0,
+    "unit_price": 200.63,
+    "amount": 2006.3
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 1.0,
+    "unit_price": 21.32,
+    "amount": 21.32
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 12.0,
+    "unit_price": 7.02,
+    "amount": 84.24
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 5.0,
+    "unit_price": 380.38,
+    "amount": 1901.9
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 12.0,
+    "unit_price": 38.67,
+    "amount": 464.04
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 10.0,
+    "unit_price": 289.46,
+    "amount": 2894.6
+   }
+  ],
+  "subtotal": 7456.64,
+  "tax": 1416.76,
+  "total": 8873.4
+ },
+ {
+  "file": "invoice_06.pdf",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-2497",
+  "invoice_date": "2026-08-24",
+  "due_date": "2026-10-08",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 12.0,
+    "unit_price": 385.03,
+    "amount": 4620.36
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 12.0,
+    "unit_price": 34.81,
+    "amount": 417.72
+   }
+  ],
+  "subtotal": 5038.08,
+  "tax": 957.24,
+  "total": 5995.32
+ },
+ {
+  "file": "invoice_07.pdf",
+  "layout": "european",
+  "pages": 2,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-1762",
+  "invoice_date": "2026-01-05",
+  "due_date": "2026-02-04",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Password manager seats",
+    "quantity": 20.0,
+    "unit_price": 7.66,
+    "amount": 153.2
+   },
+   {
+    "description": "Support hours",
+    "quantity": 5.5,
+    "unit_price": 84.69,
+    "amount": 465.8
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 97.26,
+    "amount": 97.26
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 4.0,
+    "unit_price": 6.34,
+    "amount": 25.36
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 2.0,
+    "unit_price": 20.21,
+    "amount": 40.42
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 12.0,
+    "unit_price": 6.45,
+    "amount": 77.4
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 20.0,
+    "unit_price": 73.38,
+    "amount": 1467.6
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 2.0,
+    "unit_price": 7.79,
+    "amount": 15.58
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 4.0,
+    "unit_price": 3.42,
+    "amount": 13.68
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 2.0,
+    "unit_price": 107.01,
+    "amount": 214.02
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 4.0,
+    "unit_price": 5.54,
+    "amount": 22.16
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 2.0,
+    "unit_price": 280.01,
+    "amount": 560.02
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 10.0,
+    "unit_price": 60.85,
+    "amount": 608.5
+   },
+   {
+    "description": "Support hours",
+    "quantity": 4.0,
+    "unit_price": 89.39,
+    "amount": 357.56
+   },
+   {
+    "description": "Support hours",
+    "quantity": 7.5,
+    "unit_price": 62.35,
+    "amount": 467.63
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 1.0,
+    "unit_price": 21.02,
+    "amount": 21.02
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 5.0,
+    "unit_price": 320.7,
+    "amount": 1603.5
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 5.0,
+    "unit_price": 378.49,
+    "amount": 1892.45
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 12.0,
+    "unit_price": 292.9,
+    "amount": 3514.8
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 2.0,
+    "unit_price": 95.48,
+    "amount": 190.96
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 10.0,
+    "unit_price": 97.4,
+    "amount": 974.0
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 3.0,
+    "unit_price": 319.62,
+    "amount": 958.86
+   },
+   {
+    "description": "Support hours",
+    "quantity": 5.0,
+    "unit_price": 64.96,
+    "amount": 324.8
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 2.0,
+    "unit_price": 62.71,
+    "amount": 125.42
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 1.0,
+    "unit_price": 5.26,
+    "amount": 5.26
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 12.0,
+    "unit_price": 102.66,
+    "amount": 1231.92
+   },
+   {
+    "description": "Support hours",
+    "quantity": 2.0,
+    "unit_price": 77.28,
+    "amount": 154.56
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 20.0,
+    "unit_price": 113.68,
+    "amount": 2273.6
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 2.0,
+    "unit_price": 99.67,
+    "amount": 199.34
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 10.0,
+    "unit_price": 76.37,
+    "amount": 763.7
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 10.0,
+    "unit_price": 7.34,
+    "amount": 73.4
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 4.0,
+    "unit_price": 196.8,
+    "amount": 787.2
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 4.0,
+    "unit_price": 87.83,
+    "amount": 351.32
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 4.0,
+    "unit_price": 266.93,
+    "amount": 1067.72
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 20.0,
+    "unit_price": 39.28,
+    "amount": 785.6
+   },
+   {
+    "description": "Support hours",
+    "quantity": 5.0,
+    "unit_price": 84.83,
+    "amount": 424.15
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 1.0,
+    "unit_price": 53.91,
+    "amount": 53.91
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 117.22,
+    "amount": 117.22
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 5.0,
+    "unit_price": 252.0,
+    "amount": 1260.0
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 81.12,
+    "amount": 81.12
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 5.0,
+    "unit_price": 93.72,
+    "amount": 468.6
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 20.0,
+    "unit_price": 4.08,
+    "amount": 81.6
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 4.0,
+    "unit_price": 5.78,
+    "amount": 23.12
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 3.0,
+    "unit_price": 5.85,
+    "amount": 17.55
+   }
+  ],
+  "subtotal": 24412.89,
+  "tax": 4638.45,
+  "total": 29051.34
+ },
+ {
+  "file": "invoice_08.pdf",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-0476",
+  "invoice_date": "2026-02-28",
+  "due_date": "2026-03-30",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Support hours",
+    "quantity": 7.0,
+    "unit_price": 62.81,
+    "amount": 439.67
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 90.4,
+    "amount": 90.4
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 1.0,
+    "unit_price": 31.64,
+    "amount": 31.64
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 2.0,
+    "unit_price": 30.43,
+    "amount": 60.86
+   },
+   {
+    "description": "Support hours",
+    "quantity": 1.0,
+    "unit_price": 65.58,
+    "amount": 65.58
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 10.0,
+    "unit_price": 58.62,
+    "amount": 586.2
+   }
+  ],
+  "subtotal": 1274.35,
+  "tax": 0.0,
+  "total": 1274.35
+ },
+ {
+  "file": "invoice_09.pdf",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-0487",
+  "invoice_date": "2026-10-19",
+  "due_date": "2026-11-18",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Desk chair",
+    "quantity": 5.0,
+    "unit_price": 222.56,
+    "amount": 1112.8
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 1.0,
+    "unit_price": 28.65,
+    "amount": 28.65
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 3.0,
+    "unit_price": 190.99,
+    "amount": 572.97
+   },
+   {
+    "description": "Whiteboard markers, pack of 12",
+    "quantity": 1.0,
+    "unit_price": 12.18,
+    "amount": 12.18
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 4.0,
+    "unit_price": 19.0,
+    "amount": 76.0
+   }
+  ],
+  "subtotal": 1802.6,
+  "tax": 159.98,
+  "total": 1962.58
+ },
+ {
+  "file": "invoice_10.pdf",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-6904",
+  "invoice_date": "2026-06-02",
+  "due_date": "2026-07-17",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 4.0,
+    "unit_price": 141.43,
+    "amount": 565.72
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 1.0,
+    "unit_price": 53.98,
+    "amount": 53.98
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 3.0,
+    "unit_price": 54.63,
+    "amount": 163.89
+   },
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 2.0,
+    "unit_price": 129.52,
+    "amount": 259.04
+   },
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 1.0,
+    "unit_price": 90.05,
+    "amount": 90.05
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 4.0,
+    "unit_price": 36.01,
+    "amount": 144.04
+   }
+  ],
+  "subtotal": 1276.72,
+  "tax": 79.8,
+  "total": 1356.52
+ },
+ {
+  "file": "invoice_11.pdf",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": "subtotal",
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-9160",
+  "invoice_date": "2026-08-08",
+  "due_date": "2026-08-23",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 2.0,
+    "unit_price": 22.75,
+    "amount": 45.5
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 20.0,
+    "unit_price": 27.57,
+    "amount": 551.4
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 4.0,
+    "unit_price": 79.33,
+    "amount": 317.32
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 1.0,
+    "unit_price": 20.25,
+    "amount": 20.25
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 10.0,
+    "unit_price": 53.19,
+    "amount": 531.9
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 2.0,
+    "unit_price": 8.72,
+    "amount": 17.44
+   }
+  ],
+  "subtotal": 1536.45,
+  "tax": 311.6,
+  "total": 1848.05
+ },
+ {
+  "file": "invoice_12.pdf",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-9091",
+  "invoice_date": "2026-06-28",
+  "due_date": "2026-08-12",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 1.0,
+    "unit_price": 7.29,
+    "amount": 7.29
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 3.0,
+    "unit_price": 24.59,
+    "amount": 73.77
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 20.0,
+    "unit_price": 32.93,
+    "amount": 658.6
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 5.0,
+    "unit_price": 87.55,
+    "amount": 437.75
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 20.0,
+    "unit_price": 32.44,
+    "amount": 648.8
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 3.0,
+    "unit_price": 5.87,
+    "amount": 17.61
+   }
+  ],
+  "subtotal": 1843.82,
+  "tax": 387.2,
+  "total": 2231.02
+ },
+ {
+  "file": "invoice_13.pdf",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-0714",
+  "invoice_date": "2026-04-11",
+  "due_date": "2026-05-11",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Machine descaling service",
+    "quantity": 2.0,
+    "unit_price": 64.24,
+    "amount": 128.48
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 5.0,
+    "unit_price": 29.39,
+    "amount": 146.95
+   }
+  ],
+  "subtotal": 275.43,
+  "tax": 52.33,
+  "total": 327.76
+ },
+ {
+  "file": "invoice_14.png",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": true,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-9070",
+  "invoice_date": "2026-07-14",
+  "due_date": "2026-08-13",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 2.0,
+    "unit_price": 60.02,
+    "amount": 120.04
+   },
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 1.0,
+    "unit_price": 122.67,
+    "amount": 122.67
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 1.0,
+    "unit_price": 68.44,
+    "amount": 68.44
+   },
+   {
+    "description": "Supplies surcharge",
+    "quantity": 20.0,
+    "unit_price": 24.45,
+    "amount": 489.0
+   },
+   {
+    "description": "Window cleaning",
+    "quantity": 20.0,
+    "unit_price": 68.39,
+    "amount": 1367.8
+   }
+  ],
+  "subtotal": 2167.95,
+  "tax": 135.5,
+  "total": 2303.45
+ },
+ {
+  "file": "invoice_15.pdf",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-7964",
+  "invoice_date": "2026-04-12",
+  "due_date": "2026-05-27",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Backup service, monthly",
+    "quantity": 4.0,
+    "unit_price": 41.65,
+    "amount": 166.6
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 2.0,
+    "unit_price": 58.91,
+    "amount": 117.82
+   }
+  ],
+  "subtotal": 284.42,
+  "tax": 56.88,
+  "total": 341.3
+ },
+ {
+  "file": "invoice_16.pdf",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": "line",
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-8537",
+  "invoice_date": "2026-09-26",
+  "due_date": "2026-10-11",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 5.0,
+    "unit_price": 28.09,
+    "amount": 168.54
+   }
+  ],
+  "subtotal": 168.54,
+  "tax": 10.53,
+  "total": 179.07
+ },
+ {
+  "file": "invoice_17.pdf",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-5039",
+  "invoice_date": "2026-07-12",
+  "due_date": "2026-07-27",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Toner cartridge, black",
+    "quantity": 20.0,
+    "unit_price": 56.57,
+    "amount": 1131.4
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 3.0,
+    "unit_price": 14.28,
+    "amount": 42.84
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 12.0,
+    "unit_price": 108.26,
+    "amount": 1299.12
+   }
+  ],
+  "subtotal": 2473.36,
+  "tax": 154.59,
+  "total": 2627.95
+ },
+ {
+  "file": "invoice_18.pdf",
+  "layout": "compact",
+  "pages": 2,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-7813",
+  "invoice_date": "2026-03-07",
+  "due_date": "2026-04-06",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Backup service, monthly",
+    "quantity": 12.0,
+    "unit_price": 56.71,
+    "amount": 680.52
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 1.0,
+    "unit_price": 22.76,
+    "amount": 22.76
+   },
+   {
+    "description": "Support hours",
+    "quantity": 7.0,
+    "unit_price": 69.74,
+    "amount": 488.18
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 4.0,
+    "unit_price": 50.13,
+    "amount": 200.52
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 2.0,
+    "unit_price": 79.5,
+    "amount": 159.0
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 20.0,
+    "unit_price": 4.66,
+    "amount": 93.2
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 10.0,
+    "unit_price": 228.42,
+    "amount": 2284.2
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 12.0,
+    "unit_price": 73.21,
+    "amount": 878.52
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 5.0,
+    "unit_price": 36.39,
+    "amount": 181.95
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 10.0,
+    "unit_price": 4.06,
+    "amount": 40.6
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 2.0,
+    "unit_price": 257.82,
+    "amount": 515.64
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 1.0,
+    "unit_price": 32.8,
+    "amount": 32.8
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 4.0,
+    "unit_price": 186.34,
+    "amount": 745.36
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 3.0,
+    "unit_price": 33.27,
+    "amount": 99.81
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 20.0,
+    "unit_price": 106.35,
+    "amount": 2127.0
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 4.0,
+    "unit_price": 42.98,
+    "amount": 171.92
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 10.0,
+    "unit_price": 155.43,
+    "amount": 1554.3
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 10.0,
+    "unit_price": 33.47,
+    "amount": 334.7
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 20.0,
+    "unit_price": 279.17,
+    "amount": 5583.4
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 5.0,
+    "unit_price": 312.06,
+    "amount": 1560.3
+   },
+   {
+    "description": "Support hours",
+    "quantity": 8.0,
+    "unit_price": 64.99,
+    "amount": 519.92
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 76.02,
+    "amount": 76.02
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 2.0,
+    "unit_price": 33.36,
+    "amount": 66.72
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 10.0,
+    "unit_price": 7.16,
+    "amount": 71.6
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 12.0,
+    "unit_price": 234.69,
+    "amount": 2816.28
+   },
+   {
+    "description": "Support hours",
+    "quantity": 7.0,
+    "unit_price": 55.99,
+    "amount": 391.93
+   },
+   {
+    "description": "Support hours",
+    "quantity": 6.0,
+    "unit_price": 87.59,
+    "amount": 525.54
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 5.0,
+    "unit_price": 20.71,
+    "amount": 103.55
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 12.0,
+    "unit_price": 90.9,
+    "amount": 1090.8
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 5.0,
+    "unit_price": 3.39,
+    "amount": 16.95
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 20.0,
+    "unit_price": 106.14,
+    "amount": 2122.8
+   },
+   {
+    "description": "Support hours",
+    "quantity": 2.0,
+    "unit_price": 61.5,
+    "amount": 123.0
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 12.0,
+    "unit_price": 72.38,
+    "amount": 868.56
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 4.0,
+    "unit_price": 65.06,
+    "amount": 260.24
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 20.0,
+    "unit_price": 320.29,
+    "amount": 6405.8
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 2.0,
+    "unit_price": 3.54,
+    "amount": 7.08
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 10.0,
+    "unit_price": 21.78,
+    "amount": 217.8
+   }
+  ],
+  "subtotal": 33439.27,
+  "tax": 6687.85,
+  "total": 40127.12
+ },
+ {
+  "file": "invoice_19.pdf",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Lumen Parts GmbH",
+  "invoice_number": "LUM-2026-5081",
+  "invoice_date": "2026-06-16",
+  "due_date": "2026-07-16",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Cable gland M20",
+    "quantity": 4.0,
+    "unit_price": 2.46,
+    "amount": 9.84
+   },
+   {
+    "description": "Aluminium profile 40x40, 1 m",
+    "quantity": 4.0,
+    "unit_price": 12.59,
+    "amount": 50.36
+   },
+   {
+    "description": "Cable gland M20",
+    "quantity": 2.0,
+    "unit_price": 1.07,
+    "amount": 2.14
+   },
+   {
+    "description": "Aluminium profile 40x40, 1 m",
+    "quantity": 4.0,
+    "unit_price": 25.38,
+    "amount": 101.52
+   },
+   {
+    "description": "Cable gland M20",
+    "quantity": 3.0,
+    "unit_price": 2.1,
+    "amount": 6.3
+   }
+  ],
+  "subtotal": 170.16,
+  "tax": 35.73,
+  "total": 205.89
+ },
+ {
+  "file": "invoice_20.pdf",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-0573",
+  "invoice_date": "2026-08-03",
+  "due_date": "2026-09-17",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 20.0,
+    "unit_price": 34.37,
+    "amount": 687.4
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 12.0,
+    "unit_price": 194.79,
+    "amount": 2337.48
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 20.0,
+    "unit_price": 22.72,
+    "amount": 454.4
+   },
+   {
+    "description": "Whiteboard markers, pack of 12",
+    "quantity": 5.0,
+    "unit_price": 11.95,
+    "amount": 59.75
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 2.0,
+    "unit_price": 103.27,
+    "amount": 206.54
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 2.0,
+    "unit_price": 25.67,
+    "amount": 51.34
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 20.0,
+    "unit_price": 27.63,
+    "amount": 552.6
+   }
+  ],
+  "subtotal": 4349.51,
+  "tax": 0.0,
+  "total": 4349.51
+ },
+ {
+  "file": "invoice_21.pdf",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-2250",
+  "invoice_date": "2026-08-12",
+  "due_date": "2026-08-27",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 2.0,
+    "unit_price": 65.68,
+    "amount": 131.36
+   },
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 12.0,
+    "unit_price": 70.94,
+    "amount": 851.28
+   },
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 5.0,
+    "unit_price": 139.78,
+    "amount": 698.9
+   },
+   {
+    "description": "Design proof, per hour",
+    "quantity": 5.0,
+    "unit_price": 45.38,
+    "amount": 226.9
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 3.0,
+    "unit_price": 47.6,
+    "amount": 142.8
+   }
+  ],
+  "subtotal": 2051.24,
+  "tax": 182.05,
+  "total": 2233.29
+ },
+ {
+  "file": "invoice_22.pdf",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": "date",
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-5416",
+  "invoice_date": "2026-05-28",
+  "due_date": "2026-04-28",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Desk chair",
+    "quantity": 2.0,
+    "unit_price": 113.66,
+    "amount": 227.32
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 5.0,
+    "unit_price": 14.3,
+    "amount": 71.5
+   },
+   {
+    "description": "Toner cartridge, black",
+    "quantity": 2.0,
+    "unit_price": 96.97,
+    "amount": 193.94
+   },
+   {
+    "description": "Toner cartridge, black",
+    "quantity": 2.0,
+    "unit_price": 76.04,
+    "amount": 152.08
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 12.0,
+    "unit_price": 28.42,
+    "amount": 341.04
+   },
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 4.0,
+    "unit_price": 23.3,
+    "amount": 93.2
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 20.0,
+    "unit_price": 105.64,
+    "amount": 2112.8
+   }
+  ],
+  "subtotal": 3191.88,
+  "tax": 283.28,
+  "total": 3475.16
+ },
+ {
+  "file": "invoice_23.pdf",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-5486",
+  "invoice_date": "2026-09-03",
+  "due_date": "2026-09-18",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Support hours",
+    "quantity": 1.5,
+    "unit_price": 62.65,
+    "amount": 93.98
+   }
+  ],
+  "subtotal": 93.98,
+  "tax": 17.86,
+  "total": 111.84
+ },
+ {
+  "file": "invoice_24.pdf",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-7316",
+  "invoice_date": "2026-02-20",
+  "due_date": "2026-04-06",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Machine descaling service",
+    "quantity": 3.0,
+    "unit_price": 81.66,
+    "amount": 244.98
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 3.0,
+    "unit_price": 23.37,
+    "amount": 70.11
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 3.0,
+    "unit_price": 58.62,
+    "amount": 175.86
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 10.0,
+    "unit_price": 62.97,
+    "amount": 629.7
+   }
+  ],
+  "subtotal": 1120.65,
+  "tax": 0.0,
+  "total": 1120.65
+ },
+ {
+  "file": "invoice_25.pdf",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": "total",
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-2920",
+  "invoice_date": "2026-04-15",
+  "due_date": "2026-05-15",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Business cards, 500 pcs",
+    "quantity": 5.0,
+    "unit_price": 50.02,
+    "amount": 250.1
+   }
+  ],
+  "subtotal": 250.1,
+  "tax": 22.2,
+  "total": 273.2
+ },
+ {
+  "file": "invoice_26.pdf",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-6083",
+  "invoice_date": "2026-08-12",
+  "due_date": "2026-09-26",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 2.0,
+    "unit_price": 72.41,
+    "amount": 144.82
+   }
+  ],
+  "subtotal": 144.82,
+  "tax": 0.0,
+  "total": 144.82
+ },
+ {
+  "file": "invoice_27.png",
+  "layout": "european",
+  "pages": 1,
+  "scanned": true,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Atelier Moreau SARL",
+  "invoice_number": "ATE-2026-4275",
+  "invoice_date": "2026-09-28",
+  "due_date": "2026-10-13",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 5.0,
+    "unit_price": 99.05,
+    "amount": 495.25
+   },
+   {
+    "description": "Flyers A5, 1000 pcs",
+    "quantity": 1.0,
+    "unit_price": 133.47,
+    "amount": 133.47
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 3.0,
+    "unit_price": 88.48,
+    "amount": 265.44
+   },
+   {
+    "description": "Design proof, per hour",
+    "quantity": 4.0,
+    "unit_price": 45.21,
+    "amount": 180.84
+   }
+  ],
+  "subtotal": 1075.0,
+  "tax": 215.0,
+  "total": 1290.0
+ },
+ {
+  "file": "invoice_28.pdf",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-8861",
+  "invoice_date": "2026-10-11",
+  "due_date": "2026-11-10",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Password manager seats",
+    "quantity": 20.0,
+    "unit_price": 7.73,
+    "amount": 154.6
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 4.0,
+    "unit_price": 21.49,
+    "amount": 85.96
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 1.0,
+    "unit_price": 3.35,
+    "amount": 3.35
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 1.0,
+    "unit_price": 246.56,
+    "amount": 246.56
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 12.0,
+    "unit_price": 6.07,
+    "amount": 72.84
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 1.0,
+    "unit_price": 3.77,
+    "amount": 3.77
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 2.0,
+    "unit_price": 21.06,
+    "amount": 42.12
+   }
+  ],
+  "subtotal": 609.2,
+  "tax": 115.75,
+  "total": 724.95
+ },
+ {
+  "file": "invoice_29.pdf",
+  "layout": "modern",
+  "pages": 2,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-8974",
+  "invoice_date": "2026-02-10",
+  "due_date": "2026-03-12",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Filing cabinet",
+    "quantity": 5.0,
+    "unit_price": 249.1,
+    "amount": 1245.5
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 12.0,
+    "unit_price": 131.14,
+    "amount": 1573.68
+   },
+   {
+    "description": "Filing cabinet",
+    "quantity": 12.0,
+    "unit_price": 244.28,
+    "amount": 2931.36
+   },
+   {
+    "description": "Whiteboard markers, pack of 12",
+    "quantity": 3.0,
+    "unit_price": 10.63,
+    "amount": 31.89
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 10.0,
+    "unit_price": 97.02,
+    "amount": 970.2
+   },
+   {
+    "description": "Toner cartridge, black",
+    "quantity": 2.0,
+    "unit_price": 77.89,
+    "amount": 155.78
+   },
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 12.0,
+    "unit_price": 32.17,
+    "amount": 386.04
+   },
+   {
+    "description": "Whiteboard markers, pack of 12",
+    "quantity": 20.0,
+    "unit_price": 6.15,
+    "amount": 123.0
+   },
+   {
+    "description": "Toner cartridge, black",
+    "quantity": 10.0,
+    "unit_price": 99.77,
+    "amount": 997.7
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 12.0,
+    "unit_price": 26.12,
+    "amount": 313.44
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 3.0,
+    "unit_price": 236.3,
+    "amount": 708.9
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 4.0,
+    "unit_price": 220.39,
+    "amount": 881.56
+   },
+   {
+    "description": "Filing cabinet",
+    "quantity": 1.0,
+    "unit_price": 183.62,
+    "amount": 183.62
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 2.0,
+    "unit_price": 29.16,
+    "amount": 58.32
+   },
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 5.0,
+    "unit_price": 37.34,
+    "amount": 186.7
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 1.0,
+    "unit_price": 21.98,
+    "amount": 21.98
+   },
+   {
+    "description": "Whiteboard markers, pack of 12",
+    "quantity": 10.0,
+    "unit_price": 13.27,
+    "amount": 132.7
+   },
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 10.0,
+    "unit_price": 27.62,
+    "amount": 276.2
+   },
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 3.0,
+    "unit_price": 22.72,
+    "amount": 68.16
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 2.0,
+    "unit_price": 179.2,
+    "amount": 358.4
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 1.0,
+    "unit_price": 133.41,
+    "amount": 133.41
+   },
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 3.0,
+    "unit_price": 34.96,
+    "amount": 104.88
+   },
+   {
+    "description": "Filing cabinet",
+    "quantity": 20.0,
+    "unit_price": 140.82,
+    "amount": 2816.4
+   },
+   {
+    "description": "Whiteboard markers, pack of 12",
+    "quantity": 20.0,
+    "unit_price": 12.0,
+    "amount": 240.0
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 12.0,
+    "unit_price": 232.95,
+    "amount": 2795.4
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 1.0,
+    "unit_price": 29.23,
+    "amount": 29.23
+   },
+   {
+    "description": "Toner cartridge, black",
+    "quantity": 12.0,
+    "unit_price": 48.53,
+    "amount": 582.36
+   },
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 2.0,
+    "unit_price": 33.64,
+    "amount": 67.28
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 3.0,
+    "unit_price": 91.24,
+    "amount": 273.72
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 1.0,
+    "unit_price": 20.48,
+    "amount": 20.48
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 1.0,
+    "unit_price": 240.55,
+    "amount": 240.55
+   },
+   {
+    "description": "Filing cabinet",
+    "quantity": 20.0,
+    "unit_price": 150.17,
+    "amount": 3003.4
+   },
+   {
+    "description": "Filing cabinet",
+    "quantity": 20.0,
+    "unit_price": 225.07,
+    "amount": 4501.4
+   }
+  ],
+  "subtotal": 26413.64,
+  "tax": 0.0,
+  "total": 26413.64
+ },
+ {
+  "file": "invoice_30.pdf",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-7327",
+  "invoice_date": "2026-08-30",
+  "due_date": "2026-09-29",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 1.0,
+    "unit_price": 20.23,
+    "amount": 20.23
+   }
+  ],
+  "subtotal": 20.23,
+  "tax": 3.84,
+  "total": 24.07
+ },
+ {
+  "file": "invoice_31.pdf",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": "subtotal",
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-5382",
+  "invoice_date": "2026-03-30",
+  "due_date": "2026-04-29",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 20.0,
+    "unit_price": 31.34,
+    "amount": 626.8
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 4.0,
+    "unit_price": 89.18,
+    "amount": 356.72
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 12.0,
+    "unit_price": 21.39,
+    "amount": 256.68
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 1.0,
+    "unit_price": 7.74,
+    "amount": 7.74
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 20.0,
+    "unit_price": 31.68,
+    "amount": 633.6
+   }
+  ],
+  "subtotal": 1916.8,
+  "tax": 376.31,
+  "total": 2293.11
+ },
+ {
+  "file": "invoice_32.pdf",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-8804",
+  "invoice_date": "2026-01-05",
+  "due_date": "2026-01-20",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Design proof, per hour",
+    "quantity": 1.5,
+    "unit_price": 54.14,
+    "amount": 81.21
+   },
+   {
+    "description": "Design proof, per hour",
+    "quantity": 6.0,
+    "unit_price": 40.47,
+    "amount": 242.82
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 5.0,
+    "unit_price": 65.62,
+    "amount": 328.1
+   },
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 1.0,
+    "unit_price": 119.41,
+    "amount": 119.41
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 1.0,
+    "unit_price": 72.51,
+    "amount": 72.51
+   },
+   {
+    "description": "Flyers A5, 1000 pcs",
+    "quantity": 1.0,
+    "unit_price": 100.18,
+    "amount": 100.18
+   },
+   {
+    "description": "Flyers A5, 1000 pcs",
+    "quantity": 4.0,
+    "unit_price": 117.57,
+    "amount": 470.28
+   }
+  ],
+  "subtotal": 1414.51,
+  "tax": 0.0,
+  "total": 1414.51
+ },
+ {
+  "file": "invoice_33.pdf",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-9721",
+  "invoice_date": "2026-04-04",
+  "due_date": "2026-04-19",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Supplies surcharge",
+    "quantity": 1.0,
+    "unit_price": 13.64,
+    "amount": 13.64
+   },
+   {
+    "description": "Supplies surcharge",
+    "quantity": 2.0,
+    "unit_price": 19.11,
+    "amount": 38.22
+   },
+   {
+    "description": "Supplies surcharge",
+    "quantity": 1.0,
+    "unit_price": 11.01,
+    "amount": 11.01
+   },
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 20.0,
+    "unit_price": 104.89,
+    "amount": 2097.8
+   },
+   {
+    "description": "Supplies surcharge",
+    "quantity": 4.0,
+    "unit_price": 10.3,
+    "amount": 41.2
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 2.0,
+    "unit_price": 48.34,
+    "amount": 96.68
+   }
+  ],
+  "subtotal": 2298.55,
+  "tax": 0.0,
+  "total": 2298.55
+ },
+ {
+  "file": "invoice_34.pdf",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-9077",
+  "invoice_date": "2026-06-20",
+  "due_date": "2026-07-05",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Business cards, 500 pcs",
+    "quantity": 10.0,
+    "unit_price": 58.36,
+    "amount": 583.6
+   },
+   {
+    "description": "Design proof, per hour",
+    "quantity": 7.0,
+    "unit_price": 41.1,
+    "amount": 287.7
+   },
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 4.0,
+    "unit_price": 95.68,
+    "amount": 382.72
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 10.0,
+    "unit_price": 63.47,
+    "amount": 634.7
+   }
+  ],
+  "subtotal": 1888.72,
+  "tax": 0.0,
+  "total": 1888.72
+ },
+ {
+  "file": "invoice_35.pdf",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-8434",
+  "invoice_date": "2026-06-04",
+  "due_date": "2026-07-04",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Machine descaling service",
+    "quantity": 3.0,
+    "unit_price": 83.38,
+    "amount": 250.14
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 2.0,
+    "unit_price": 8.0,
+    "amount": 16.0
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 10.0,
+    "unit_price": 21.93,
+    "amount": 219.3
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 20.0,
+    "unit_price": 5.97,
+    "amount": 119.4
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 20.0,
+    "unit_price": 6.69,
+    "amount": 133.8
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 4.0,
+    "unit_price": 57.38,
+    "amount": 229.52
+   }
+  ],
+  "subtotal": 968.16,
+  "tax": 183.95,
+  "total": 1152.11
+ },
+ {
+  "file": "invoice_36.pdf",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": "line",
+  "vendor_name": "Vantor Freight",
+  "invoice_number": "VAN-2026-9875",
+  "invoice_date": "2026-06-07",
+  "due_date": "2026-07-07",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Liftgate delivery",
+    "quantity": 2.0,
+    "unit_price": 40.57,
+    "amount": 121.71
+   },
+   {
+    "description": "Liftgate delivery",
+    "quantity": 12.0,
+    "unit_price": 48.83,
+    "amount": 585.96
+   }
+  ],
+  "subtotal": 707.67,
+  "tax": 62.81,
+  "total": 770.48
+ },
+ {
+  "file": "invoice_37.pdf",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-6447",
+  "invoice_date": "2026-08-04",
+  "due_date": "2026-09-03",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 20.0,
+    "unit_price": 47.26,
+    "amount": 945.2
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 10.0,
+    "unit_price": 53.4,
+    "amount": 534.0
+   }
+  ],
+  "subtotal": 1479.2,
+  "tax": 0.0,
+  "total": 1479.2
+ },
+ {
+  "file": "invoice_38.png",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": true,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-3950",
+  "invoice_date": "2026-07-06",
+  "due_date": "2026-08-05",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 1.0,
+    "unit_price": 21.31,
+    "amount": 21.31
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 12.0,
+    "unit_price": 29.27,
+    "amount": 351.24
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 2.0,
+    "unit_price": 61.77,
+    "amount": 123.54
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 5.0,
+    "unit_price": 20.47,
+    "amount": 102.35
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 1.0,
+    "unit_price": 19.64,
+    "amount": 19.64
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 1.0,
+    "unit_price": 62.87,
+    "amount": 62.87
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 20.0,
+    "unit_price": 8.97,
+    "amount": 179.4
+   }
+  ],
+  "subtotal": 860.35,
+  "tax": 172.07,
+  "total": 1032.42
+ },
+ {
+  "file": "invoice_39.pdf",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-3224",
+  "invoice_date": "2026-02-23",
+  "due_date": "2026-04-09",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Backup service, monthly",
+    "quantity": 2.0,
+    "unit_price": 38.44,
+    "amount": 76.88
+   }
+  ],
+  "subtotal": 76.88,
+  "tax": 15.38,
+  "total": 92.26
+ },
+ {
+  "file": "invoice_40.pdf",
+  "layout": "classic",
+  "pages": 2,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-5520",
+  "invoice_date": "2026-03-09",
+  "due_date": "2026-04-23",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 3.0,
+    "unit_price": 4.75,
+    "amount": 14.25
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 1.0,
+    "unit_price": 85.91,
+    "amount": 85.91
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 2.0,
+    "unit_price": 44.56,
+    "amount": 89.12
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 10.0,
+    "unit_price": 83.82,
+    "amount": 838.2
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 12.0,
+    "unit_price": 24.97,
+    "amount": 299.64
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 12.0,
+    "unit_price": 57.58,
+    "amount": 690.96
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 1.0,
+    "unit_price": 23.71,
+    "amount": 23.71
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 1.0,
+    "unit_price": 52.79,
+    "amount": 52.79
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 10.0,
+    "unit_price": 21.63,
+    "amount": 216.3
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 1.0,
+    "unit_price": 32.85,
+    "amount": 32.85
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 4.0,
+    "unit_price": 7.88,
+    "amount": 31.52
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 1.0,
+    "unit_price": 74.74,
+    "amount": 74.74
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 1.0,
+    "unit_price": 6.05,
+    "amount": 6.05
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 4.0,
+    "unit_price": 22.47,
+    "amount": 89.88
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 3.0,
+    "unit_price": 7.71,
+    "amount": 23.13
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 20.0,
+    "unit_price": 26.29,
+    "amount": 525.8
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 20.0,
+    "unit_price": 26.53,
+    "amount": 530.6
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 4.0,
+    "unit_price": 60.67,
+    "amount": 242.68
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 3.0,
+    "unit_price": 7.54,
+    "amount": 22.62
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 2.0,
+    "unit_price": 57.89,
+    "amount": 115.78
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 4.0,
+    "unit_price": 5.56,
+    "amount": 22.24
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 1.0,
+    "unit_price": 33.76,
+    "amount": 33.76
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 5.0,
+    "unit_price": 7.64,
+    "amount": 38.2
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 5.0,
+    "unit_price": 23.68,
+    "amount": 118.4
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 12.0,
+    "unit_price": 70.44,
+    "amount": 845.28
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 5.0,
+    "unit_price": 30.17,
+    "amount": 150.85
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 12.0,
+    "unit_price": 69.22,
+    "amount": 830.64
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 5.0,
+    "unit_price": 40.72,
+    "amount": 203.6
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 10.0,
+    "unit_price": 7.68,
+    "amount": 76.8
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 12.0,
+    "unit_price": 4.05,
+    "amount": 48.6
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 12.0,
+    "unit_price": 42.2,
+    "amount": 506.4
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 4.0,
+    "unit_price": 25.57,
+    "amount": 102.28
+   }
+  ],
+  "subtotal": 6983.58,
+  "tax": 436.47,
+  "total": 7420.05
+ },
+ {
+  "file": "invoice_41.pdf",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-6114",
+  "invoice_date": "2026-05-16",
+  "due_date": "2026-06-30",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 3.0,
+    "unit_price": 63.46,
+    "amount": 190.38
+   }
+  ],
+  "subtotal": 190.38,
+  "tax": 36.17,
+  "total": 226.55
+ },
+ {
+  "file": "invoice_42.pdf",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Vantor Freight",
+  "invoice_number": "VAN-2026-2343",
+  "invoice_date": "2026-06-02",
+  "due_date": "2026-07-17",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Pallet transport, per pallet",
+    "quantity": 10.0,
+    "unit_price": 87.53,
+    "amount": 875.3
+   },
+   {
+    "description": "Pallet transport, per pallet",
+    "quantity": 1.0,
+    "unit_price": 155.31,
+    "amount": 155.31
+   }
+  ],
+  "subtotal": 1030.61,
+  "tax": 91.47,
+  "total": 1122.08
+ },
+ {
+  "file": "invoice_43.pdf",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-9506",
+  "invoice_date": "2026-05-31",
+  "due_date": "2026-07-15",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Backup service, monthly",
+    "quantity": 20.0,
+    "unit_price": 47.06,
+    "amount": 941.2
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 3.0,
+    "unit_price": 382.7,
+    "amount": 1148.1
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 4.0,
+    "unit_price": 187.39,
+    "amount": 749.56
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 2.0,
+    "unit_price": 6.03,
+    "amount": 12.06
+   }
+  ],
+  "subtotal": 2850.92,
+  "tax": 570.18,
+  "total": 3421.1
+ },
+ {
+  "file": "invoice_44.pdf",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": "total",
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-4935",
+  "invoice_date": "2026-01-05",
+  "due_date": "2026-01-20",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Support hours",
+    "quantity": 7.0,
+    "unit_price": 51.44,
+    "amount": 360.08
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 4.0,
+    "unit_price": 117.8,
+    "amount": 471.2
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 20.0,
+    "unit_price": 305.36,
+    "amount": 6107.2
+   }
+  ],
+  "subtotal": 6938.48,
+  "tax": 0.0,
+  "total": 7038.48
+ },
+ {
+  "file": "invoice_45.pdf",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-1620",
+  "invoice_date": "2026-02-13",
+  "due_date": "2026-03-15",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 1.0,
+    "unit_price": 364.37,
+    "amount": 364.37
+   },
+   {
+    "description": "Support hours",
+    "quantity": 3.5,
+    "unit_price": 73.85,
+    "amount": 258.48
+   },
+   {
+    "description": "Support hours",
+    "quantity": 3.0,
+    "unit_price": 72.62,
+    "amount": 217.86
+   }
+  ],
+  "subtotal": 840.71,
+  "tax": 176.55,
+  "total": 1017.26
+ },
+ {
+  "file": "invoice_46.pdf",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-3281",
+  "invoice_date": "2026-10-10",
+  "due_date": "2026-11-09",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 12.0,
+    "unit_price": 28.37,
+    "amount": 340.44
+   }
+  ],
+  "subtotal": 340.44,
+  "tax": 30.21,
+  "total": 370.65
+ },
+ {
+  "file": "invoice_47.pdf",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": "duplicate",
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-9091",
+  "invoice_date": "2026-07-23",
+  "due_date": "2026-08-07",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Password manager seats",
+    "quantity": 12.0,
+    "unit_price": 4.82,
+    "amount": 57.84
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 2.0,
+    "unit_price": 116.28,
+    "amount": 232.56
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 1.0,
+    "unit_price": 377.37,
+    "amount": 377.37
+   }
+  ],
+  "subtotal": 667.77,
+  "tax": 140.23,
+  "total": 808.0
+ },
+ {
+  "file": "invoice_48.pdf",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-4869",
+  "invoice_date": "2026-04-30",
+  "due_date": "2026-06-14",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 12.0,
+    "unit_price": 57.23,
+    "amount": 686.76
+   },
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 4.0,
+    "unit_price": 92.15,
+    "amount": 368.6
+   },
+   {
+    "description": "Supplies surcharge",
+    "quantity": 10.0,
+    "unit_price": 23.34,
+    "amount": 233.4
+   },
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 3.0,
+    "unit_price": 104.55,
+    "amount": 313.65
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 10.0,
+    "unit_price": 37.51,
+    "amount": 375.1
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 4.0,
+    "unit_price": 45.45,
+    "amount": 181.8
+   }
+  ],
+  "subtotal": 2159.31,
+  "tax": 0.0,
+  "total": 2159.31
+ },
+ {
+  "file": "invoice_49.pdf",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-7127",
+  "invoice_date": "2026-04-18",
+  "due_date": "2026-05-03",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Business cards, 500 pcs",
+    "quantity": 1.0,
+    "unit_price": 59.46,
+    "amount": 59.46
+   },
+   {
+    "description": "Flyers A5, 1000 pcs",
+    "quantity": 1.0,
+    "unit_price": 120.09,
+    "amount": 120.09
+   },
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 1.0,
+    "unit_price": 80.24,
+    "amount": 80.24
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 10.0,
+    "unit_price": 74.15,
+    "amount": 741.5
+   },
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 3.0,
+    "unit_price": 42.14,
+    "amount": 126.42
+   }
+  ],
+  "subtotal": 1127.71,
+  "tax": 100.08,
+  "total": 1227.79
+ },
+ {
+  "file": "invoice_50.pdf",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": false,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Vantor Freight",
+  "invoice_number": "VAN-2026-7200",
+  "invoice_date": "2026-07-09",
+  "due_date": "2026-08-23",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Waiting time, per hour",
+    "quantity": 5.0,
+    "unit_price": 57.19,
+    "amount": 285.95
+   },
+   {
+    "description": "Waiting time, per hour",
+    "quantity": 7.0,
+    "unit_price": 49.09,
+    "amount": 343.63
+   }
+  ],
+  "subtotal": 629.58,
+  "tax": 132.21,
+  "total": 761.79
+ },
+ {
+  "file": "invoice_51.jpg",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-2086",
+  "invoice_date": "2026-01-25",
+  "due_date": "2026-02-09",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 12.0,
+    "unit_price": 84.21,
+    "amount": 1010.52
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 1.0,
+    "unit_price": 30.57,
+    "amount": 30.57
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 10.0,
+    "unit_price": 73.53,
+    "amount": 735.3
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 4.0,
+    "unit_price": 119.17,
+    "amount": 476.68
+   }
+  ],
+  "subtotal": 2253.07,
+  "tax": 473.14,
+  "total": 2726.21
+ },
+ {
+  "file": "invoice_52.jpg",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-7245",
+  "invoice_date": "2026-07-03",
+  "due_date": "2026-08-17",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Machine descaling service",
+    "quantity": 2.0,
+    "unit_price": 80.73,
+    "amount": 161.46
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 2.0,
+    "unit_price": 5.54,
+    "amount": 11.08
+   }
+  ],
+  "subtotal": 172.54,
+  "tax": 32.78,
+  "total": 205.32
+ },
+ {
+  "file": "invoice_53.jpg",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-1397",
+  "invoice_date": "2026-07-27",
+  "due_date": "2026-09-10",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Desk chair",
+    "quantity": 3.0,
+    "unit_price": 193.35,
+    "amount": 580.05
+   },
+   {
+    "description": "Filing cabinet",
+    "quantity": 12.0,
+    "unit_price": 167.12,
+    "amount": 2005.44
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 3.0,
+    "unit_price": 214.36,
+    "amount": 643.08
+   },
+   {
+    "description": "Filing cabinet",
+    "quantity": 5.0,
+    "unit_price": 218.98,
+    "amount": 1094.9
+   }
+  ],
+  "subtotal": 4323.47,
+  "tax": 0.0,
+  "total": 4323.47
+ },
+ {
+  "file": "invoice_54.jpg",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": false,
+  "error": "total",
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-1202",
+  "invoice_date": "2026-04-30",
+  "due_date": "2026-06-14",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 10.0,
+    "unit_price": 63.33,
+    "amount": 633.3
+   },
+   {
+    "description": "Design proof, per hour",
+    "quantity": 1.0,
+    "unit_price": 53.64,
+    "amount": 53.64
+   },
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 1.0,
+    "unit_price": 110.46,
+    "amount": 110.46
+   }
+  ],
+  "subtotal": 797.4,
+  "tax": 70.77,
+  "total": 869.07
+ },
+ {
+  "file": "invoice_55.jpg",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Lumen Parts GmbH",
+  "invoice_number": "LUM-2026-4149",
+  "invoice_date": "2026-08-07",
+  "due_date": "2026-09-06",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Hex bolts M8, box of 100",
+    "quantity": 4.0,
+    "unit_price": 10.55,
+    "amount": 42.2
+   }
+  ],
+  "subtotal": 42.2,
+  "tax": 8.86,
+  "total": 51.06
+ },
+ {
+  "file": "invoice_56.jpg",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-4464",
+  "invoice_date": "2026-04-30",
+  "due_date": "2026-06-14",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 1.0,
+    "unit_price": 58.78,
+    "amount": 58.78
+   },
+   {
+    "description": "Window cleaning",
+    "quantity": 4.0,
+    "unit_price": 122.1,
+    "amount": 488.4
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 12.0,
+    "unit_price": 69.44,
+    "amount": 833.28
+   }
+  ],
+  "subtotal": 1380.46,
+  "tax": 0.0,
+  "total": 1380.46
+ },
+ {
+  "file": "invoice_57.jpg",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-1238",
+  "invoice_date": "2026-07-24",
+  "due_date": "2026-08-08",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 5.0,
+    "unit_price": 60.19,
+    "amount": 300.95
+   }
+  ],
+  "subtotal": 300.95,
+  "tax": 0.0,
+  "total": 300.95
+ },
+ {
+  "file": "invoice_58.jpg",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Vantor Freight",
+  "invoice_number": "VAN-2026-7454",
+  "invoice_date": "2026-06-14",
+  "due_date": "2026-06-29",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Fuel surcharge",
+    "quantity": 1.0,
+    "unit_price": 15.95,
+    "amount": 15.95
+   },
+   {
+    "description": "Pallet transport, per pallet",
+    "quantity": 1.0,
+    "unit_price": 131.2,
+    "amount": 131.2
+   },
+   {
+    "description": "Pallet transport, per pallet",
+    "quantity": 12.0,
+    "unit_price": 152.14,
+    "amount": 1825.68
+   },
+   {
+    "description": "Fuel surcharge",
+    "quantity": 2.0,
+    "unit_price": 37.17,
+    "amount": 74.34
+   },
+   {
+    "description": "Fuel surcharge",
+    "quantity": 1.0,
+    "unit_price": 31.8,
+    "amount": 31.8
+   },
+   {
+    "description": "Pallet transport, per pallet",
+    "quantity": 3.0,
+    "unit_price": 64.34,
+    "amount": 193.02
+   }
+  ],
+  "subtotal": 2271.99,
+  "tax": 142.0,
+  "total": 2413.99
+ },
+ {
+  "file": "invoice_59.jpg",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": false,
+  "error": "subtotal",
+  "vendor_name": "Atelier Moreau SARL",
+  "invoice_number": "ATE-2026-3143",
+  "invoice_date": "2026-02-13",
+  "due_date": "2026-02-28",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 10.0,
+    "unit_price": 79.06,
+    "amount": 790.6
+   }
+  ],
+  "subtotal": 823.74,
+  "tax": 150.21,
+  "total": 973.95
+ },
+ {
+  "file": "invoice_60.jpg",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": false,
+  "error": null,
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-2553",
+  "invoice_date": "2026-01-30",
+  "due_date": "2026-03-16",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Desk chair",
+    "quantity": 1.0,
+    "unit_price": 197.08,
+    "amount": 197.08
+   },
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 1.0,
+    "unit_price": 25.42,
+    "amount": 25.42
+   },
+   {
+    "description": "Whiteboard markers, pack of 12",
+    "quantity": 3.0,
+    "unit_price": 12.8,
+    "amount": 38.4
+   },
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 10.0,
+    "unit_price": 29.82,
+    "amount": 298.2
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 5.0,
+    "unit_price": 120.31,
+    "amount": 601.55
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 3.0,
+    "unit_price": 28.45,
+    "amount": 85.35
+   },
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 2.0,
+    "unit_price": 28.05,
+    "amount": 56.1
+   }
+  ],
+  "subtotal": 1302.1,
+  "tax": 81.38,
+  "total": 1383.48
+ },
+ {
+  "file": "invoice_61.jpg",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": true,
+  "error": null,
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-8111",
+  "invoice_date": "2026-06-27",
+  "due_date": "2026-07-12",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Whiteboard markers, pack of 12",
+    "quantity": 2.0,
+    "unit_price": 11.26,
+    "amount": 22.52
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 2.0,
+    "unit_price": 15.67,
+    "amount": 31.34
+   },
+   {
+    "description": "Stapler, heavy duty",
+    "quantity": 1.0,
+    "unit_price": 25.23,
+    "amount": 25.23
+   },
+   {
+    "description": "Toner cartridge, black",
+    "quantity": 3.0,
+    "unit_price": 81.85,
+    "amount": 245.55
+   },
+   {
+    "description": "Toner cartridge, black",
+    "quantity": 12.0,
+    "unit_price": 96.32,
+    "amount": 1155.84
+   },
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 20.0,
+    "unit_price": 28.07,
+    "amount": 561.4
+   },
+   {
+    "description": "Desk chair",
+    "quantity": 20.0,
+    "unit_price": 238.65,
+    "amount": 4773.0
+   }
+  ],
+  "subtotal": 6814.88,
+  "tax": 604.82,
+  "total": 7419.7
+ },
+ {
+  "file": "invoice_62.jpg",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": true,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-5286",
+  "invoice_date": "2026-06-28",
+  "due_date": "2026-08-12",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Backup service, monthly",
+    "quantity": 20.0,
+    "unit_price": 56.16,
+    "amount": 1123.2
+   },
+   {
+    "description": "Support hours",
+    "quantity": 4.0,
+    "unit_price": 64.76,
+    "amount": 259.04
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 5.0,
+    "unit_price": 65.78,
+    "amount": 328.9
+   }
+  ],
+  "subtotal": 1711.14,
+  "tax": 325.12,
+  "total": 2036.26
+ },
+ {
+  "file": "invoice_63.jpg",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": true,
+  "error": "total",
+  "vendor_name": "Lumen Parts GmbH",
+  "invoice_number": "LUM-2026-2628",
+  "invoice_date": "2026-10-12",
+  "due_date": "2026-11-11",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Hex bolts M8, box of 100",
+    "quantity": 2.0,
+    "unit_price": 12.46,
+    "amount": 24.92
+   },
+   {
+    "description": "Cable gland M20",
+    "quantity": 2.0,
+    "unit_price": 2.13,
+    "amount": 4.26
+   },
+   {
+    "description": "Bearing 6204-2RS",
+    "quantity": 10.0,
+    "unit_price": 5.37,
+    "amount": 53.7
+   },
+   {
+    "description": "Bearing 6204-2RS",
+    "quantity": 20.0,
+    "unit_price": 7.87,
+    "amount": 157.4
+   },
+   {
+    "description": "Stepper motor NEMA 17",
+    "quantity": 1.0,
+    "unit_price": 34.86,
+    "amount": 34.86
+   },
+   {
+    "description": "Stepper motor NEMA 17",
+    "quantity": 2.0,
+    "unit_price": 14.31,
+    "amount": 28.62
+   }
+  ],
+  "subtotal": 303.76,
+  "tax": 57.71,
+  "total": 352.47
+ },
+ {
+  "file": "invoice_64.jpg",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": true,
+  "error": null,
+  "vendor_name": "Harbor & Pine Printing",
+  "invoice_number": "HAR-2026-0279",
+  "invoice_date": "2026-07-30",
+  "due_date": "2026-08-29",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Stickers, die cut, 250 pcs",
+    "quantity": 3.0,
+    "unit_price": 87.24,
+    "amount": 261.72
+   },
+   {
+    "description": "Business cards, 500 pcs",
+    "quantity": 5.0,
+    "unit_price": 26.55,
+    "amount": 132.75
+   }
+  ],
+  "subtotal": 394.47,
+  "tax": 0.0,
+  "total": 394.47
+ },
+ {
+  "file": "invoice_65.jpg",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": true,
+  "error": null,
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-7764",
+  "invoice_date": "2026-03-07",
+  "due_date": "2026-04-21",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 1.0,
+    "unit_price": 98.67,
+    "amount": 98.67
+   },
+   {
+    "description": "Window cleaning",
+    "quantity": 5.0,
+    "unit_price": 129.28,
+    "amount": 646.4
+   },
+   {
+    "description": "Supplies surcharge",
+    "quantity": 5.0,
+    "unit_price": 23.33,
+    "amount": 116.65
+   },
+   {
+    "description": "Supplies surcharge",
+    "quantity": 3.0,
+    "unit_price": 24.81,
+    "amount": 74.43
+   }
+  ],
+  "subtotal": 936.15,
+  "tax": 83.08,
+  "total": 1019.23
+ },
+ {
+  "file": "invoice_66.jpg",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": true,
+  "error": "line",
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-7571",
+  "invoice_date": "2026-09-23",
+  "due_date": "2026-10-08",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Copy paper A4, box of 5 reams",
+    "quantity": 10.0,
+    "unit_price": 33.09,
+    "amount": 363.99
+   },
+   {
+    "description": "Toner cartridge, black",
+    "quantity": 1.0,
+    "unit_price": 59.28,
+    "amount": 59.28
+   }
+  ],
+  "subtotal": 423.27,
+  "tax": 0.0,
+  "total": 423.27
+ },
+ {
+  "file": "invoice_67.jpg",
+  "layout": "european",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": true,
+  "error": null,
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-6578",
+  "invoice_date": "2026-03-11",
+  "due_date": "2026-04-10",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Machine descaling service",
+    "quantity": 10.0,
+    "unit_price": 70.07,
+    "amount": 700.7
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 3.0,
+    "unit_price": 5.3,
+    "amount": 15.9
+   }
+  ],
+  "subtotal": 716.6,
+  "tax": 143.32,
+  "total": 859.92
+ },
+ {
+  "file": "invoice_68.jpg",
+  "layout": "classic",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": true,
+  "error": null,
+  "vendor_name": "Bluegate Office Supply",
+  "invoice_number": "BLU-2026-1289",
+  "invoice_date": "2026-02-07",
+  "due_date": "2026-02-22",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Filing cabinet",
+    "quantity": 5.0,
+    "unit_price": 141.45,
+    "amount": 707.25
+   },
+   {
+    "description": "Filing cabinet",
+    "quantity": 1.0,
+    "unit_price": 198.46,
+    "amount": 198.46
+   }
+  ],
+  "subtotal": 905.71,
+  "tax": 0.0,
+  "total": 905.71
+ },
+ {
+  "file": "invoice_69.jpg",
+  "layout": "modern",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": true,
+  "error": "subtotal",
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-1826",
+  "invoice_date": "2026-04-30",
+  "due_date": "2026-05-30",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 1.0,
+    "unit_price": 49.62,
+    "amount": 49.62
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 1.0,
+    "unit_price": 55.81,
+    "amount": 55.81
+   }
+  ],
+  "subtotal": 122.4,
+  "tax": 6.59,
+  "total": 128.99
+ },
+ {
+  "file": "invoice_70.jpg",
+  "layout": "compact",
+  "pages": 1,
+  "scanned": false,
+  "photo": true,
+  "rough": true,
+  "error": null,
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-2030",
+  "invoice_date": "2026-01-26",
+  "due_date": "2026-02-10",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Support hours",
+    "quantity": 2.0,
+    "unit_price": 53.85,
+    "amount": 107.7
+   },
+   {
+    "description": "Support hours",
+    "quantity": 2.0,
+    "unit_price": 50.44,
+    "amount": 100.88
+   }
+  ],
+  "subtotal": 208.58,
+  "tax": 13.04,
+  "total": 221.62
+ }
+]

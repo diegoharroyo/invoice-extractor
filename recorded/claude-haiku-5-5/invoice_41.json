@@ -1,0 +1,33 @@
+{
+ "invoice": {
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-6114",
+  "invoice_date": "2026-05-16",
+  "due_date": "2026-06-30",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 3.0,
+    "unit_price": 63.46,
+    "amount": 190.38
+   }
+  ],
+  "subtotal": 190.38,
+  "tax": 36.17,
+  "total": 226.55,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_41.pdf",
+  "sha256": "a5871cb4cdd4ab8b7b003e33355e338583a3ae3a4277b65384d803663e118ccb",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:45:07",
+  "latency_s": 3.12,
+  "input_tokens": 4068,
+  "output_tokens": 344,
+  "cost_usd": 0.00058
+ }
+}

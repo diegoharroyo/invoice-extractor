@@ -1,0 +1,33 @@
+{
+ "invoice": {
+  "vendor_name": "Atelier Moreau SARL",
+  "invoice_number": "ATE-2026-3143",
+  "invoice_date": "2026-02-13",
+  "due_date": "2026-02-28",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Roll-up banner 85x200",
+    "quantity": 10.0,
+    "unit_price": 79.06,
+    "amount": 790.6
+   }
+  ],
+  "subtotal": 823.74,
+  "tax": 150.21,
+  "total": 973.95,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_59.jpg",
+  "sha256": "6f8f16719628cf5be723a88c85a1990ed4b43a2629aa52d5634d5a2893c5fc17",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:50:33",
+  "latency_s": 3.41,
+  "input_tokens": 3509,
+  "output_tokens": 343,
+  "cost_usd": 0.01045
+ }
+}

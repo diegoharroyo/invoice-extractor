@@ -1,0 +1,39 @@
+{
+ "invoice": {
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-2497",
+  "invoice_date": "2026-08-24",
+  "due_date": "2026-10-08",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 12.0,
+    "unit_price": 385.03,
+    "amount": 4620.36
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 12.0,
+    "unit_price": 34.81,
+    "amount": 417.72
+   }
+  ],
+  "subtotal": 5038.08,
+  "tax": 957.24,
+  "total": 5995.32,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_06.pdf",
+  "sha256": "2c6884f99750b64389932555750ecdc2fc154d2df71106aa5ca48e4c35eac21f",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:42:29",
+  "latency_s": 4.69,
+  "input_tokens": 4076,
+  "output_tokens": 516,
+  "cost_usd": 0.01331
+ }
+}

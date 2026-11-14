@@ -1,0 +1,291 @@
+{
+ "invoice": {
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-1762",
+  "invoice_date": "2026-01-05",
+  "due_date": "2026-02-04",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Password manager seats",
+    "quantity": 20.0,
+    "unit_price": 7.66,
+    "amount": 153.2
+   },
+   {
+    "description": "Support hours",
+    "quantity": 5.5,
+    "unit_price": 84.69,
+    "amount": 465.8
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 97.26,
+    "amount": 97.26
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 4.0,
+    "unit_price": 6.34,
+    "amount": 25.36
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 2.0,
+    "unit_price": 20.21,
+    "amount": 40.42
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 12.0,
+    "unit_price": 6.45,
+    "amount": 77.4
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 20.0,
+    "unit_price": 73.38,
+    "amount": 1467.6
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 2.0,
+    "unit_price": 7.79,
+    "amount": 15.58
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 4.0,
+    "unit_price": 3.42,
+    "amount": 13.68
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 2.0,
+    "unit_price": 107.01,
+    "amount": 214.02
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 4.0,
+    "unit_price": 5.54,
+    "amount": 22.16
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 2.0,
+    "unit_price": 280.01,
+    "amount": 560.02
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 10.0,
+    "unit_price": 60.85,
+    "amount": 608.5
+   },
+   {
+    "description": "Support hours",
+    "quantity": 4.0,
+    "unit_price": 89.39,
+    "amount": 357.56
+   },
+   {
+    "description": "Support hours",
+    "quantity": 7.5,
+    "unit_price": 62.35,
+    "amount": 467.63
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 1.0,
+    "unit_price": 21.02,
+    "amount": 21.02
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 5.0,
+    "unit_price": 320.7,
+    "amount": 1603.5
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 5.0,
+    "unit_price": 378.49,
+    "amount": 1892.45
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 12.0,
+    "unit_price": 292.9,
+    "amount": 3514.8
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 2.0,
+    "unit_price": 95.48,
+    "amount": 190.96
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 10.0,
+    "unit_price": 97.4,
+    "amount": 974.0
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 3.0,
+    "unit_price": 319.62,
+    "amount": 958.86
+   },
+   {
+    "description": "Support hours",
+    "quantity": 5.0,
+    "unit_price": 64.96,
+    "amount": 324.8
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 2.0,
+    "unit_price": 62.71,
+    "amount": 125.42
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 1.0,
+    "unit_price": 5.26,
+    "amount": 5.26
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 12.0,
+    "unit_price": 102.66,
+    "amount": 1231.92
+   },
+   {
+    "description": "Support hours",
+    "quantity": 2.0,
+    "unit_price": 77.28,
+    "amount": 154.56
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 20.0,
+    "unit_price": 113.68,
+    "amount": 2273.6
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 2.0,
+    "unit_price": 99.67,
+    "amount": 199.34
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 10.0,
+    "unit_price": 76.37,
+    "amount": 763.7
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 10.0,
+    "unit_price": 7.34,
+    "amount": 73.4
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 4.0,
+    "unit_price": 196.8,
+    "amount": 787.2
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 4.0,
+    "unit_price": 87.83,
+    "amount": 351.32
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 4.0,
+    "unit_price": 266.93,
+    "amount": 1067.72
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 20.0,
+    "unit_price": 39.28,
+    "amount": 785.6
+   },
+   {
+    "description": "Support hours",
+    "quantity": 5.0,
+    "unit_price": 84.83,
+    "amount": 424.15
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 1.0,
+    "unit_price": 53.91,
+    "amount": 53.91
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 117.22,
+    "amount": 117.22
+   },
+   {
+    "description": "Network switch, 24 ports",
+    "quantity": 5.0,
+    "unit_price": 252.0,
+    "amount": 1260.0
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 81.12,
+    "amount": 81.12
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 5.0,
+    "unit_price": 93.72,
+    "amount": 468.6
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 20.0,
+    "unit_price": 4.08,
+    "amount": 81.6
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 4.0,
+    "unit_price": 5.78,
+    "amount": 23.12
+   },
+   {
+    "description": "Password manager seats",
+    "quantity": 3.0,
+    "unit_price": 5.85,
+    "amount": 17.55
+   }
+  ],
+  "subtotal": 24412.89,
+  "tax": 4638.45,
+  "total": 29051.34,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_07.pdf",
+  "sha256": "90e0abf2b67895017090462e36577f89e5105d9693e732f0750c72a27b596e55",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:42:38",
+  "latency_s": 12.36,
+  "input_tokens": 6745,
+  "output_tokens": 3761,
+  "cost_usd": 0.00255
+ }
+}

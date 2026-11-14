@@ -1,0 +1,63 @@
+{
+ "invoice": {
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-9091",
+  "invoice_date": "2026-06-28",
+  "due_date": "2026-08-12",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 1.0,
+    "unit_price": 7.29,
+    "amount": 7.29
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 3.0,
+    "unit_price": 24.59,
+    "amount": 73.77
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 20.0,
+    "unit_price": 32.93,
+    "amount": 658.6
+   },
+   {
+    "description": "Machine descaling service",
+    "quantity": 5.0,
+    "unit_price": 87.55,
+    "amount": 437.75
+   },
+   {
+    "description": "Oat milk, case of 12",
+    "quantity": 20.0,
+    "unit_price": 32.44,
+    "amount": 648.8
+   },
+   {
+    "description": "Paper cups, sleeve of 50",
+    "quantity": 3.0,
+    "unit_price": 5.87,
+    "amount": 17.61
+   }
+  ],
+  "subtotal": 1843.82,
+  "tax": 387.2,
+  "total": 2231.02,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_12.pdf",
+  "sha256": "ff7bd6b80ece530de71b225cc87158b187362f26f74a274b8bf9d6e2f132262b",
+  "model": "claude-opus-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:43:19",
+  "latency_s": 5.47,
+  "input_tokens": 4216,
+  "output_tokens": 548,
+  "cost_usd": 0.02782
+ }
+}

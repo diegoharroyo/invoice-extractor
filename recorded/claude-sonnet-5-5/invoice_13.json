@@ -1,0 +1,39 @@
+{
+ "invoice": {
+  "vendor_name": "Quarry Hill Coffee",
+  "invoice_number": "QUA-2026-0714",
+  "invoice_date": "2026-04-11",
+  "due_date": "2026-05-11",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Machine descaling service",
+    "quantity": 2.0,
+    "unit_price": 64.24,
+    "amount": 128.48
+   },
+   {
+    "description": "Espresso beans 1 kg",
+    "quantity": 5.0,
+    "unit_price": 29.39,
+    "amount": 146.95
+   }
+  ],
+  "subtotal": 275.43,
+  "tax": 52.33,
+  "total": 327.76,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_13.pdf",
+  "sha256": "b9c38e4acc52bc8e4f4d4db00fb56b509fc27157c60e5d86438577c436be4b3e",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:43:05",
+  "latency_s": 3.68,
+  "input_tokens": 4075,
+  "output_tokens": 380,
+  "cost_usd": 0.01195
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "invoice": {
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-7964",
+  "invoice_date": "2026-04-12",
+  "due_date": "2026-05-27",
+  "currency": "EUR",
+  "line_items": [
+   {
+    "description": "Backup service, monthly",
+    "quantity": 4.0,
+    "unit_price": 41.65,
+    "amount": 166.6
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 2.0,
+    "unit_price": 58.91,
+    "amount": 117.82
+   }
+  ],
+  "subtotal": 284.42,
+  "tax": 56.88,
+  "total": 341.3,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_15.pdf",
+  "sha256": "0da8072cd61de28a012a2d76ffc36f4accfd8a506e640173bcf4a41fda8c0679",
+  "model": "claude-sonnet-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:43:14",
+  "latency_s": 3.77,
+  "input_tokens": 4104,
+  "output_tokens": 376,
+  "cost_usd": 0.01197
+ }
+}

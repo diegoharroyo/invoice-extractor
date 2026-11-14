@@ -1,0 +1,57 @@
+{
+ "invoice": {
+  "vendor_name": "Kestrel Cleaning Co.",
+  "invoice_number": "KES-2026-9070",
+  "invoice_date": "2026-07-14",
+  "due_date": "2026-08-13",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 2.0,
+    "unit_price": 60.02,
+    "amount": 120.04
+   },
+   {
+    "description": "Office cleaning, per visit",
+    "quantity": 1.0,
+    "unit_price": 122.67,
+    "amount": 122.67
+   },
+   {
+    "description": "Carpet shampoo, per room",
+    "quantity": 1.0,
+    "unit_price": 68.44,
+    "amount": 68.44
+   },
+   {
+    "description": "Supplies surcharge",
+    "quantity": 20.0,
+    "unit_price": 24.45,
+    "amount": 489.0
+   },
+   {
+    "description": "Window cleaning",
+    "quantity": 20.0,
+    "unit_price": 68.39,
+    "amount": 1367.8
+   }
+  ],
+  "subtotal": 2167.95,
+  "tax": 135.5,
+  "total": 2303.45,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_14.png",
+  "sha256": "a3fc75a061cb8584d5b09c7f4ca1f97219359977e022fc4dd82697b35d68b4a1",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:49:46",
+  "latency_s": 3.57,
+  "input_tokens": 5093,
+  "output_tokens": 525,
+  "cost_usd": 0.00077
+ }
+}

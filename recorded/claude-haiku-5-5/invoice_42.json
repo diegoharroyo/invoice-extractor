@@ -1,0 +1,39 @@
+{
+ "invoice": {
+  "vendor_name": "Vantor Freight",
+  "invoice_number": "VAN-2026-2343",
+  "invoice_date": "2026-06-02",
+  "due_date": "2026-07-17",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Pallet transport, per pallet",
+    "quantity": 10.0,
+    "unit_price": 87.53,
+    "amount": 875.3
+   },
+   {
+    "description": "Pallet transport, per pallet",
+    "quantity": 1.0,
+    "unit_price": 155.31,
+    "amount": 155.31
+   }
+  ],
+  "subtotal": 1030.61,
+  "tax": 91.47,
+  "total": 1122.08,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_42.pdf",
+  "sha256": "2463f48af72aa2533f5263239f0d8fc508bc7664a6fdc0fcde315f305827b2c4",
+  "model": "claude-haiku-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:45:11",
+  "latency_s": 3.71,
+  "input_tokens": 4086,
+  "output_tokens": 630,
+  "cost_usd": 0.00072
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "invoice": {
+  "vendor_name": "Brightwell IT Services",
+  "invoice_number": "BRI-2026-0476",
+  "invoice_date": "2026-02-28",
+  "due_date": "2026-03-30",
+  "currency": "USD",
+  "line_items": [
+   {
+    "description": "Support hours",
+    "quantity": 7.0,
+    "unit_price": 62.81,
+    "amount": 439.67
+   },
+   {
+    "description": "Laptop setup and imaging",
+    "quantity": 1.0,
+    "unit_price": 90.4,
+    "amount": 90.4
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 1.0,
+    "unit_price": 31.64,
+    "amount": 31.64
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 2.0,
+    "unit_price": 30.43,
+    "amount": 60.86
+   },
+   {
+    "description": "Support hours",
+    "quantity": 1.0,
+    "unit_price": 65.58,
+    "amount": 65.58
+   },
+   {
+    "description": "Backup service, monthly",
+    "quantity": 10.0,
+    "unit_price": 58.62,
+    "amount": 586.2
+   }
+  ],
+  "subtotal": 1274.35,
+  "tax": 0.0,
+  "total": 1274.35,
+  "unreadable": []
+ },
+ "provenance": {
+  "file": "invoice_08.pdf",
+  "sha256": "8b6eb6ee2c397f9ac61756800b4e9306f8b440b161af404491904a8775e4fe5e",
+  "model": "claude-opus-5-5",
+  "backend": "cli",
+  "prompt_version": "1",
+  "recorded_at": "2026-11-14T16:42:55",
+  "latency_s": 5.26,
+  "input_tokens": 4141,
+  "output_tokens": 523,
+  "cost_usd": 0.02702
+ }
+}

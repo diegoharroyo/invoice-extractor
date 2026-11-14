@@ -1,0 +1,15 @@
+[project]
+name = "invoice-extractor"
+version = "0.1.0"
+description = "Invoice PDFs and scans to a Google Sheet, with Claude doing the reading and plain arithmetic checking it."
+requires-python = ">=3.11"
+dependencies = ["anthropic>=0.70", "pydantic>=2", "gspread>=6", "reportlab>=4"]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
