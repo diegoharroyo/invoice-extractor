@@ -21,11 +21,11 @@ def same(field: str, got, want) -> bool:
         return len(got) == len(want) and all(
             g["description"].strip().casefold() == w["description"].strip().casefold()
             and all(abs(g[k] - w[k]) < 0.005 for k in ("quantity", "unit_price", "amount")) for g, w in zip(got, want))
-    if isinstance(want, (int, float)) and got is not None:  # a hand-written truth.json may say 100, not 100.0
-        return abs(got - want) < 0.005
+    if field in ("subtotal", "tax", "total"):
+        return got is not None and want is not None and abs(got - want) < 0.005
     if field == "vendor_name":
         return got.strip().casefold() == want.strip().casefold()
-    return got == want
+    return str(got).strip() == str(want).strip()  # a hand-written truth.json may say 1234 for "1234"
 
 
 def answer(folder: Path, model_dir: Path, t: dict) -> Path:
@@ -33,13 +33,18 @@ def answer(folder: Path, model_dir: Path, t: dict) -> Path:
 
 
 def current(rec: Path) -> bool:
-    return rec.exists() and json.loads(rec.read_text())["provenance"]["prompt_version"] == extract.PROMPT_VERSION
+    return extract.load(rec) is not None  # missing, broken or from an older prompt: that model is left out
+
+
+def kind(reason: str) -> str:
+    """Which check a reason comes from, without the values in it: "line 2: 3 × 10.00 is not 31.00" -> "line 2"."""
+    return re.match(r"line \d+|lines|subtotal|due|not a|duplicate|hard", reason)[0]
 
 
 def score(folder: Path, model_dir: Path, truth: list[dict]) -> dict:
     rows, seen, seen_printed = [], set(), set()
     for t in truth:
-        saved = json.loads(answer(folder, model_dir, t).read_text())
+        saved = extract.load(answer(folder, model_dir, t))
         inv = saved["invoice"]
         wrong = [f for f in FIELDS if not same(f, inv[f], t[f])]
         reasons = extract.check(inv, seen)
@@ -47,7 +52,7 @@ def score(folder: Path, model_dir: Path, truth: list[dict]) -> dict:
         unsure = {re.split(r"[.\[]", u)[0] for u in inv["unreadable"]}
         # A misread is caught only if the flag points at it: Claude said it couldn't read every wrong field,
         # or a check fails on what Claude read that doesn't fail on what is printed.
-        caught = set(wrong) <= unsure or bool({r for r in reasons if not r.startswith("hard to read")} - set(printed))
+        caught = set(wrong) <= unsure or bool({kind(r) for r in reasons} - {kind(r) for r in printed} - {"hard"})
         rows.append({"t": t, "wrong": wrong, "flagged": bool(reasons), "caught": caught, **saved["provenance"]})
     return {"model": model_dir.name, "rows": rows}
 

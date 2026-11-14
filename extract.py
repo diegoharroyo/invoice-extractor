@@ -12,6 +12,7 @@ import csv
 import hashlib
 import io
 import json
+import math
 import os
 import re
 import subprocess
@@ -63,7 +64,11 @@ def shrink(raw: bytes) -> bytes:
     """A phone photo is often 3-12 MB. Claude sees images at most 1568 px on the long side anyway."""
     from PIL import Image, ImageOps
 
-    im = ImageOps.exif_transpose(Image.open(io.BytesIO(raw))).convert("RGB")
+    im = ImageOps.exif_transpose(Image.open(io.BytesIO(raw)))
+    if im.mode.startswith("I"):  # a 16-bit scan: convert() would clip everything above 255 to white
+        im = im.convert("I").point(lambda v: v / 256).convert("L")
+    # a transparent background becomes white, not black
+    im = Image.alpha_composite(Image.new("RGBA", im.size, "white"), im.convert("RGBA")).convert("RGB")
     im.thumbnail((1568, 1568))
     buf = io.BytesIO()
     im.save(buf, "JPEG", quality=90)
@@ -74,9 +79,9 @@ def content(path: Path) -> list[dict]:
     from PIL import Image
 
     raw, media = path.read_bytes(), "application/pdf"
-    if path.suffix.lower() != ".pdf":
+    if raw[:5] != b"%PDF-":  # the bytes say what it is, not the name: a PNG saved as .jpg is a PNG
         im = Image.open(io.BytesIO(raw))
-        media = f"image/{(im.format or '').lower()}"  # from the bytes, not the name: a PNG saved as .jpg is a PNG
+        media = f"image/{(im.format or '').lower()}"
         # big photos get scaled down, a photo with an EXIF rotation turned upright (0x0112 = orientation),
         # anything over 8000 px a side (the API refuses it) or in another format sent as JPEG
         if (len(raw) > MAX_IMAGE or im.getexif().get(0x0112, 1) != 1 or max(im.size) > 8000
@@ -123,15 +128,25 @@ def saved_answer(path: Path, model: str, recorded: Path, sha: str = "") -> Path:
     return recorded / model / f"{sha or hashlib.sha256(path.read_bytes()).hexdigest()}.json"
 
 
+def load(rec: Path, sha: str = "") -> dict | None:
+    """A saved answer for this file and prompt, with its types checked ("33.0" is used as 33.0); None if missing,
+    broken or from another prompt, so the file is read again."""
+    try:
+        saved = json.loads(rec.read_text())
+        p = saved["provenance"]
+        if (sha and p["sha256"] != sha) or p["prompt_version"] != PROMPT_VERSION:
+            return None
+        return saved | {"invoice": Invoice.model_validate(saved["invoice"]).model_dump(mode="json")}
+    except (OSError, ValueError, KeyError, TypeError):  # pydantic's ValidationError is a ValueError
+        return None
+
+
 def extract(path: Path, model: str, backend: str, recorded: Path, offline: bool) -> dict:
     """Claude's reading of one file, from the saved answers when this exact file was already read with this prompt."""
     sha = hashlib.sha256(path.read_bytes()).hexdigest()
     rec = saved_answer(path, model, recorded, sha)
-    if rec.exists():
-        saved = json.loads(rec.read_text())
-        if saved["provenance"]["sha256"] == sha and saved["provenance"]["prompt_version"] == PROMPT_VERSION:
-            # a hand-edited answer that breaks the schema fails this file only; "33.0" is used as 33.0
-            return saved | {"invoice": Invoice.model_validate(saved["invoice"]).model_dump(mode="json")}
+    if saved := load(rec, sha):
+        return saved
     if offline:
         raise FileNotFoundError(f"no saved answer in {recorded}/ for this file and prompt (drop --offline to read it)")
     t = time.monotonic()
@@ -143,14 +158,16 @@ def extract(path: Path, model: str, backend: str, recorded: Path, offline: bool)
         **usage, "cost_usd": round((usage["input_tokens"] * pin + usage["output_tokens"] * pout) / 1e6, 5)}}
     try:
         rec.parent.mkdir(parents=True, exist_ok=True)
-        rec.write_text(json.dumps(saved, indent=1) + "\n")
+        tmp = rec.with_suffix(".tmp")
+        tmp.write_text(json.dumps(saved, indent=1) + "\n")
+        tmp.replace(rec)  # all or nothing: a half-written answer would look like a saved one
     except OSError as e:  # a full disk must not throw away an answer that was already paid for
         print(f"warning: {path.name} read but not saved ({e}), it will be paid for again next run", file=sys.stderr)
     return saved | {"fresh": True}
 
 
 def money(v: float) -> str:
-    return f"{v:,.2f}" if abs(v * 100 - round(v * 100)) < 1e-6 else f"{v:,.10g}"  # 0.125 stays 0.125
+    return f"{v:,.2f}" if math.isclose(v, round(v, 2), rel_tol=1e-12, abs_tol=1e-9) else f"{v:,}"  # 0.125 stays 0.125
 
 
 def check(inv: dict, seen: set) -> list[str]:
@@ -162,9 +179,9 @@ def check(inv: dict, seen: set) -> list[str]:
     lines = sum(x["amount"] for x in inv["line_items"])
     sub, tax, total = inv["subtotal"], inv["tax"] or 0, inv["total"]
     if inv["line_items"] and sub is not None and abs(lines - sub) > CENT:
-        why.append(f"lines add up to {lines:.2f}, subtotal says {sub:.2f}")
+        why.append(f"lines add up to {money(lines)}, subtotal says {money(sub)}")
     if abs((lines if sub is None else sub) + tax - total) > CENT:
-        why.append(f"subtotal + tax is {(lines if sub is None else sub) + tax:.2f}, total says {total:.2f}")
+        why.append(f"subtotal + tax is {money((lines if sub is None else sub) + tax)}, total says {money(total)}")
     if inv["due_date"] and inv["due_date"] < inv["invoice_date"]:
         why.append(f"due {inv['due_date']} is before the invoice date {inv['invoice_date']}")
     if not re.fullmatch(r"[A-Z]{3}", inv["currency"]):
@@ -231,13 +248,20 @@ def sheet_cells(data: list[list], header: list[str]) -> list[list]:
     return [["'" + v if isinstance(v, str) and v and n not in dates else v for n, v in enumerate(r)] for r in data]
 
 
-def to_sheet(results: list[dict]) -> None:
-    """Optional: 'Invoices' tab (one row each, rows to review in orange) and 'Line items' tab, rewritten every run."""
+def open_sheet():
+    """The Google Sheet in SHEET_ID, opened before any invoice is read: a bad key or a sheet that isn't shared
+    shows up before anything is paid for. None without SHEET_ID."""
     if not os.environ.get("SHEET_ID"):
-        return
+        return None
     import gspread
 
-    book = gspread.service_account(filename=os.environ["GOOGLE_CREDENTIALS"]).open_by_key(os.environ["SHEET_ID"])
+    return gspread.service_account(filename=os.environ["GOOGLE_CREDENTIALS"]).open_by_key(os.environ["SHEET_ID"])
+
+
+def to_sheet(results: list[dict], book) -> None:
+    """'Invoices' tab (one row each, rows to review in orange) and 'Line items' tab, rewritten every run."""
+    import gspread
+
 
     def tab(name, header, data):
         try:
@@ -282,6 +306,10 @@ def main() -> None:
         ap.error(f"{args.folder} is not a folder")
     if os.environ.get("SHEET_ID") and not Path(os.environ.get("GOOGLE_CREDENTIALS", "")).is_file():
         ap.error("SHEET_ID is set but GOOGLE_CREDENTIALS is not the path of the service-account JSON file")
+    try:
+        book = open_sheet()
+    except Exception as e:  # noqa: BLE001 -- broken key file, sheet not shared with the service account, ...
+        ap.error(f"can't open the Google Sheet: {type(e).__name__}: {e}")
     args.out.mkdir(parents=True, exist_ok=True)
 
     found = sorted(p for p in args.folder.iterdir() if not p.name.startswith("."))
@@ -300,18 +328,18 @@ def main() -> None:
             continue
         results.append({"file": path.name, "invoice": saved["invoice"], "reasons": reasons,
                         "provenance": saved["provenance"], "fresh": saved.get("fresh", False)})
-    to_csv(results, args.out)
-    sheet_ok = True
-    try:
-        to_sheet(results)
-    except Exception as e:  # noqa: BLE001 -- e.g. the sheet isn't shared with the service account; the CSVs are written
-        print(f"sheet not updated: {type(e).__name__}: {e}", file=sys.stderr)
-        sheet_ok = False
+    written = True
+    for where, write in [("CSVs", lambda: to_csv(results, args.out)), ("sheet", lambda: book and to_sheet(results, book))]:
+        try:
+            write()
+        except Exception as e:  # noqa: BLE001 -- e.g. invoices.csv open in Excel: still try the other, and report
+            print(f"{where} not written: {type(e).__name__}: {e}", file=sys.stderr)
+            written = False
     ok = [r for r in results if "invoice" in r]
     print(json.dumps({"files": len(files), "needs_review": sum(1 for r in ok if r["reasons"]),
                       "failed": len(files) - len(ok), "skipped": len(skipped),
                       "spent_usd": round(sum(r["provenance"]["cost_usd"] for r in ok if r["fresh"]), 4)}))
-    sys.exit(0 if len(ok) == len(files) and sheet_ok else 1)  # so a scheduled run or CI notices
+    sys.exit(0 if len(ok) == len(files) and written else 1)  # so a scheduled run or CI notices
 
 
 if __name__ == "__main__":

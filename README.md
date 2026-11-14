@@ -93,7 +93,9 @@ Rerun the tables with `uv run eval.py` (it only reads `recorded/`, it never call
 - Text stays text: an invoice number like `0012` doesn't turn into 12, and text that starts like a formula (`=`,
   `+`, `-`, `@`) is not run as one, so a hostile invoice can't put a formula in your sheet.
 - One bad file doesn't stop the batch: it shows up as `failed` with the error, and the script exits with 1 so a
-  scheduled run notices. So does a Sheet it couldn't write to; the CSVs are written anyway.
+  scheduled run notices. So does an output it couldn't write (a CSV open in Excel, a Sheet that went away); the
+  other one is still written. The Sheet is opened before the first invoice is read, so a bad key file or a sheet
+  that isn't shared stops the run before anything is paid for.
 
 ## Run it
 

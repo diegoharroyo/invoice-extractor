@@ -37,6 +37,14 @@ def test_each_mistake_is_flagged():
         assert any(words in w for w in extract.check(inv, set())), words
 
 
+def test_big_amounts_print_exactly():
+    assert extract.money(1130553632.11) == "1,130,553,632.11" and extract.money(80666535121.29) == "80,666,535,121.29"
+    assert extract.money(0.125) == "0.125"
+    near = invoice(line_items=[{"description": "x", "quantity": 1, "unit_price": 100.004, "amount": 100.004}],
+                   subtotal=99.99, total=102.99)
+    assert extract.check(near, set()) == ["lines add up to 100.004, subtotal says 99.99"]  # not "100.00 ... 100.00"
+
+
 def test_duplicate_in_batch():
     seen = set()
     assert extract.check(invoice(), seen) == []
@@ -74,7 +82,7 @@ def test_sheet_resets_last_runs_orange(monkeypatch):
         service_account=lambda filename: SimpleNamespace(open_by_key=lambda key: book), WorksheetNotFound=KeyError))
     monkeypatch.setenv("SHEET_ID", "x")
     monkeypatch.setenv("GOOGLE_CREDENTIALS", "x.json")
-    extract.to_sheet([{"file": "a.pdf", "invoice": invoice(), "reasons": ["total says"]}])
+    extract.to_sheet([{"file": "a.pdf", "invoice": invoice(), "reasons": ["total says"]}], extract.open_sheet())
     formats = [a for name, a in calls if name == "format"]
     assert ("A2:L1000", {"backgroundColor": {"red": 1, "green": 1, "blue": 1}}) in formats
     assert [f["range"] for name, a in calls if name == "batch_format" for f in a[0]] == ["A2:L2"]
@@ -132,6 +140,10 @@ def test_new_prompt_reads_again(tmp_path, monkeypatch):
     fresh = extract.extract(Path("samples/invoice_01.pdf"), "claude-sonnet-5-5", "api", rec, offline=False)
     assert fresh["fresh"] and fresh["provenance"]["prompt_version"] == extract.PROMPT_VERSION
     assert extract.extract(Path("samples/invoice_01.pdf"), "claude-sonnet-5-5", "api", rec, offline=True)["invoice"]
+    good = rec / "claude-sonnet-5-5" / old.name
+    good.write_text(good.read_text()[:50])  # cut short, as by a full disk: it counts as missing and is read again
+    assert extract.extract(Path("samples/invoice_01.pdf"), "claude-sonnet-5-5", "api", rec, offline=False)["fresh"]
+    assert not good.with_suffix(".tmp").exists()
     (tmp_path / "not_a_folder").write_text("")  # saving fails: the paid-for answer is still used
     assert extract.extract(Path("samples/invoice_01.pdf"), "claude-sonnet-5-5", "api", tmp_path / "not_a_folder",
                            offline=False)["fresh"]
@@ -141,6 +153,11 @@ def test_eval_counts_unflagged_misreads():
     s = {r["model"]: ev.review_numbers(r) for r in
          [ev.score(Path("samples"), Path("recorded") / m, TRUTH) for m in extract.PRICES]}
     assert [(n["silent"], n["misread"]) for n in s.values()] == [(1, 6), (2, 5), (2, 4)]
+
+
+def test_misread_counts_as_caught_only_by_a_check_the_printed_invoice_passes():
+    assert ev.kind("line 2: 3 × 10.00 is not 31.00") == "line 2"
+    assert ev.kind("duplicate: X Ltd A-1 was already in this batch") == ev.kind("duplicate: X A-1 was already in this batch")
 
 
 def test_ask_api_sends_the_file_and_schema(monkeypatch):
@@ -185,5 +202,21 @@ def test_big_photos_are_scaled_down(tmp_path):
     Image.new("L", (1200, 9000), 255).save(receipt)  # small file, but too tall for the API
     raw = base64.b64decode(extract.content(receipt)[0]["source"]["data"])
     assert max(Image.open(io.BytesIO(raw)).size) == 1568
+    clear = tmp_path / "clear.png"  # transparent background, a black box: must not come out all black
+    im = Image.new("RGBA", (9000, 1200), (0, 0, 0, 0))
+    im.paste((0, 0, 0, 255), (100, 100, 900, 500))
+    im.save(clear)
+    raw = base64.b64decode(extract.content(clear)[0]["source"]["data"])
+    assert Image.open(io.BytesIO(raw)).convert("L").getextrema() == (0, 255)
+    deep = tmp_path / "scan16.png"  # 16-bit grayscale, a mid-gray box: must stay gray, not turn white
+    Image.new("I;16", (9000, 100), 32768).save(deep)
+    raw = base64.b64decode(extract.content(deep)[0]["source"]["data"])
+    assert abs(Image.open(io.BytesIO(raw)).convert("L").getpixel((500, 5)) - 128) < 3
+    misnamed = tmp_path / "scan.pdf"
+    Image.new("RGB", (100, 100)).save(misnamed, "JPEG")
+    assert extract.content(misnamed)[0]["source"]["media_type"] == "image/jpeg"
+    pdf_as_jpg = tmp_path / "inv.jpg"
+    pdf_as_jpg.write_bytes(Path("samples/invoice_01.pdf").read_bytes())
+    assert extract.content(pdf_as_jpg)[0]["type"] == "document"
     small = extract.content(Path("samples/invoice_51.jpg"))[0]["source"]  # the samples go as they are
     assert base64.b64decode(small["data"]) == Path("samples/invoice_51.jpg").read_bytes()
