@@ -8,6 +8,7 @@ Each answer is saved in answers/ under the file's hash, so the same file is not 
 
 import argparse
 import base64
+import contextlib
 import csv
 import hashlib
 import io
@@ -65,7 +66,7 @@ def shrink(raw: bytes) -> bytes:
     from PIL import Image, ImageOps
 
     im = ImageOps.exif_transpose(Image.open(io.BytesIO(raw)))
-    if im.mode.startswith("I"):  # a 16-bit scan: convert() would clip everything above 255 to white
+    if im.mode.startswith("I;16"):  # a 16-bit scan: convert() would clip everything above 255 to white
         im = im.convert("I").point(lambda v: v / 256).convert("L")
     # a transparent background becomes white, not black
     im = Image.alpha_composite(Image.new("RGBA", im.size, "white"), im.convert("RGBA")).convert("RGB")
@@ -79,7 +80,7 @@ def content(path: Path) -> list[dict]:
     from PIL import Image
 
     raw, media = path.read_bytes(), "application/pdf"
-    if raw[:5] != b"%PDF-":  # the bytes say what it is, not the name: a PNG saved as .jpg is a PNG
+    if b"%PDF-" not in raw[:1024]:  # the bytes say what it is, not the name: a PNG saved as .jpg is a PNG
         im = Image.open(io.BytesIO(raw))
         media = f"image/{(im.format or '').lower()}"
         # big photos get scaled down, a photo with an EXIF rotation turned upright (0x0112 = orientation),
@@ -134,7 +135,7 @@ def load(rec: Path, sha: str = "") -> dict | None:
     try:
         saved = json.loads(rec.read_text())
         p = saved["provenance"]
-        if (sha and p["sha256"] != sha) or p["prompt_version"] != PROMPT_VERSION:
+        if p["sha256"] != (sha or rec.stem) or p["prompt_version"] != PROMPT_VERSION:
             return None
         return saved | {"invoice": Invoice.model_validate(saved["invoice"]).model_dump(mode="json")}
     except (OSError, ValueError, KeyError, TypeError):  # pydantic's ValidationError is a ValueError
@@ -156,18 +157,20 @@ def extract(path: Path, model: str, backend: str, recorded: Path, offline: bool)
         "file": path.name, "sha256": sha, "model": model, "backend": backend, "prompt_version": PROMPT_VERSION,
         "recorded_at": datetime.now().isoformat(timespec="seconds"), "latency_s": round(time.monotonic() - t, 2),
         **usage, "cost_usd": round((usage["input_tokens"] * pin + usage["output_tokens"] * pout) / 1e6, 5)}}
+    tmp = rec.with_suffix(".tmp")
     try:
         rec.parent.mkdir(parents=True, exist_ok=True)
-        tmp = rec.with_suffix(".tmp")
         tmp.write_text(json.dumps(saved, indent=1) + "\n")
         tmp.replace(rec)  # all or nothing: a half-written answer would look like a saved one
     except OSError as e:  # a full disk must not throw away an answer that was already paid for
+        with contextlib.suppress(OSError):  # don't leave a half-written .tmp behind
+            tmp.unlink()
         print(f"warning: {path.name} read but not saved ({e}), it will be paid for again next run", file=sys.stderr)
     return saved | {"fresh": True}
 
 
 def money(v: float) -> str:
-    return f"{v:,.2f}" if math.isclose(v, round(v, 2), rel_tol=1e-12, abs_tol=1e-9) else f"{v:,}"  # 0.125 stays 0.125
+    return f"{v:,.2f}" if math.isclose(v, round(v, 2), rel_tol=1e-14, abs_tol=1e-9) else f"{round(v, 6):,}"  # 0.125 stays 0.125
 
 
 def check(inv: dict, seen: set) -> list[str]:

@@ -22,7 +22,7 @@ def same(field: str, got, want) -> bool:
             g["description"].strip().casefold() == w["description"].strip().casefold()
             and all(abs(g[k] - w[k]) < 0.005 for k in ("quantity", "unit_price", "amount")) for g, w in zip(got, want))
     if field in ("subtotal", "tax", "total"):
-        return got is not None and want is not None and abs(got - want) < 0.005
+        return got == want if got is None or want is None else abs(float(got) - float(want)) < 0.005
     if field == "vendor_name":
         return got.strip().casefold() == want.strip().casefold()
     return str(got).strip() == str(want).strip()  # a hand-written truth.json may say 1234 for "1234"
