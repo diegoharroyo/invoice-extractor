@@ -1,5 +1,5 @@
 """Make the sample invoices in samples/ and samples/truth.json, the values printed on each one.
-Run: uv run make_invoices.py   (same seed, same bytes; the scans and photos need pdftoppm and ImageMagick)
+Run: uv run --group gen make_invoices.py   (same seed, same invoices; the scans and photos need pdftoppm and ImageMagick)
 
 Everything is fake: vendors on example.com/.net/.org, 555-01xx phone numbers, tax IDs that can't be valid,
 and a "SAMPLE - synthetic" stamp on every page. 14 invoices have a planted mistake, listed in truth.json."""

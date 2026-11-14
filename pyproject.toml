@@ -1,12 +1,13 @@
 [project]
 name = "invoice-extractor"
 version = "0.1.0"
-description = "Invoice PDFs and scans to a Google Sheet, with Claude doing the reading and plain arithmetic checking it."
+description = "Invoice PDFs and scans to a Google Sheet, with Claude doing the reading and Python checking the arithmetic."
 requires-python = ">=3.11"
-dependencies = ["anthropic>=0.70", "pydantic>=2", "gspread>=6", "reportlab>=4"]
+dependencies = ["anthropic>=2.8", "pydantic>=2", "gspread>=6", "pillow>=10"]
 
 [dependency-groups]
 dev = ["pytest>=8", "ruff>=0.6"]
+gen = ["reportlab>=4"]  # only make_invoices.py
 
 [tool.ruff]
 line-length = 120
