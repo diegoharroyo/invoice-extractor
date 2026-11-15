@@ -178,4 +178,4 @@ Claude, so CI runs on every push.
 
 ---
 
-Built with AI coding tools; reviewed and tested by me. MIT license.
+MIT license.
